@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "Pushing to Master"
+echo "$@"
 git add . --all
-git commit -m $1
+git commit -m "$@"
 git push origin master
 
 echo "Success!"

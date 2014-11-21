@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "$@"
+echo "Pushing to github"
 git add . --all
 git commit -m "$@"
 git push origin master
