@@ -41,7 +41,10 @@ layout: default
                     </li>
                     {% endif %} 
                 </ul>
-            <h3> Part of the {{ page.collection }} collection.
+                <div class="post-end">
+                    <p> {{ page.author }} is a {{ page.schoolyear }} year {{ page.schooltype }} at {{ page.school }} studying Computer Science. </p>
+                    <p> {{ page.title }} is part of the <a href="{{ page.collection-url }}">{{ page.collection }}</a> collection. </p>
+                </div>
             </div>
         </div>
     </div>

@@ -24,8 +24,6 @@ defaults:
       author: "Lucas"
       owner: "Lucas Marcelli"
       nav: "no"
-  -
-    scope:
-      path: "_posts" 
-    values:
-      collection: "none"
+      schoolyear: "4th"
+      schooltype: "Undergraduate"
+      school: "Queen's University"

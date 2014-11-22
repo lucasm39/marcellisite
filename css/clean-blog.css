@@ -408,3 +408,10 @@ body {
   font-size: 20px;
   margin-top: 10px;
 }
+.post-collection {
+  font-style: italic;
+}
+
+.post-end {
+  font-style: italic;
+}
