@@ -23,3 +23,9 @@ defaults:
     values:
       author: "Lucas"
       owner: "Lucas Marcelli"
+      nav: "no"
+  -
+    scope:
+      path: "_posts" 
+    values:
+      collection: "none"
