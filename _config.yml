@@ -21,4 +21,5 @@ defaults:
     scope:
       path: "" 
     values:
-      author: "Lucas Marcelli"
+      author: "Lucas"
+      owner: "Lucas Marcelli"

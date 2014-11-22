@@ -101,25 +101,25 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #FFFFFF;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #FFFFFF;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #FFFFFF;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #FFFFFF;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -208,6 +208,10 @@ hr.small {
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
+  }
+  .intro-header .post-heading .subheading-post {
+    font-size: 24px;
+    margin-top: 10px;
   }
 }
 .post-preview > a {
@@ -399,4 +403,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.post-subtitle {
+  font-size: 20px;
+  margin-top: 10px;
 }
