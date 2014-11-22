@@ -24,15 +24,15 @@
                         {% if page.nav == 'yes' %}
                             {% if page.title %}<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
                         {% endif %}
-                    </li>
-                    {% if page.credit %}
-                    {% if title == page.title %}
-                        <li>
-                            <a href="{{ page.credit }}">Photo Credit</a>
-                        </li>
-                    {% endif %}
-                    {% endif %}                
+                    </li>      
                 {% endfor %}
+                {% if page.credit %}
+                        {% if title == page.title %}
+                            <li>
+                                <a href="{{ page.credit }}">Photo Credit</a>
+                            </li>
+                        {% endif %}
+                    {% endif %}          
             </ul>
         </div>
         <!-- /.navbar-collapse -->
