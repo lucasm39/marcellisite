@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Projects"
+description: "Where my sleep lives"
+<<<<<<< HEAD
+header-img: "office.jpg"
+nav: "no"
+credit: "https://www.flickr.com/photos/andrewbasterfield/"
+=======
+header-img: "img/office.jpg"
+nav: "yes"
+>>>>>>> Initial Commit
+---
+
+<h1 align="center"> Here are the projects I'm working on. </h1>
+
+<ul class="pager">
+	<li>
+		<a href="http://codeforkids.ca"><img src=/img/cfk.png></a>
+<<<<<<< HEAD
+		<p>Code For Kids is a not-for-profit orginzation that aims to teach kids coding and design. I work as co-owner and Managing Director.</p>
+	</li>
+</ul>
+=======
+		<p>Code For Kids is a not-for-profit orginzation that aims to teach kids coding and design.
+		I am the managing director and co-owner of Code For Kids.</p>
+	</li>
+</ul>
+>>>>>>> Initial Commit
