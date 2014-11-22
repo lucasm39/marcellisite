@@ -3,6 +3,7 @@ layout: post
 title: "Hello World!"
 subtitle: "So Cliche."
 header-img: "img/post-bg-05.jpg"
+tag: oddsandends
 ---
 
 <p> I've never really been into blogs. I certainly never thought I'd actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I'm doing this because I want to start having projects in my life again. </p>

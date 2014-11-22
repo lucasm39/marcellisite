@@ -23,3 +23,7 @@ defaults:
     values:
       author: "Lucas"
       owner: "Lucas Marcelli"
+      nav: "no"
+      schoolyear: "4th"
+      schooltype: "Undergraduate"
+      school: "Queen's University"
