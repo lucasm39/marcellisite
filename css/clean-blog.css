@@ -5,7 +5,7 @@ body {
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 24px 0;
 }
 p a {
   text-decoration: underline;
@@ -413,5 +413,13 @@ body {
 }
 
 .post-end {
+  font-style: italic;
+}
+.img-center {
+  text-align: center;
+}
+.under-img-text{
+  font-size: 18px;
+  margin-top: 10px;
   font-style: italic;
 }

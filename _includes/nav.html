@@ -18,7 +18,6 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% assign title = page.title %}
                 {% for page in site.pages %}
                     <li>
                         {% if page.nav == 'yes' %}
@@ -26,13 +25,6 @@
                         {% endif %}
                     </li>      
                 {% endfor %}
-                {% if page.credit %}
-                        {% if title == page.title %}
-                            <li>
-                                <a href="{{ page.credit }}">Photo Credit</a>
-                            </li>
-                        {% endif %}
-                    {% endif %}          
             </ul>
         </div>
         <!-- /.navbar-collapse -->

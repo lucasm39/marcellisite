@@ -43,7 +43,12 @@
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ page.owner }} {{ site.time | date: '%Y' }}</p>
+                <p class="copyright text-muted">Copyright &copy; {{ page.owner }} {{ site.time | date: '%Y' }}
+                    <br>
+                    {% if page.credit %}
+                        <a href="{{ page.credit }}">Header Photo Credit</a>
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>
