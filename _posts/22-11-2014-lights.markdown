@@ -6,7 +6,7 @@ header-img: "lights.jpg"
 tag: rage
 collection: "Rage"
 collection-url: "/rage"
-credit: "https://www.flickr.com/photos/splorp/"
+credit: "https://www.flickr.com/photos/amymctigue/"
 ---
 
 My various devices all inform me that it is 2014. In fact, it's almost 2015, and I'm almost 22 years old.

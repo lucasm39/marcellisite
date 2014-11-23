@@ -1,0 +1,14 @@
+---
+layout: none
+title: "Is it Waffle Day?"
+---
+{% assign x = site.time | date: '%d' %}
+{% if x != "17" %}
+	<h1>
+		NO IT'S NOT WAFFLE DAY
+	</h1>
+{% else %}
+	<h1>
+		GO EAT SOME WAFFLES
+	</h1>
+{% endif %}
