@@ -418,8 +418,11 @@ body {
 .img-center {
   text-align: center;
 }
-.under-img-text{
+.under-img-text {
   font-size: 18px;
   margin-top: 10px;
   font-style: italic;
+}
+#collection-page {
+  width: 60%;
 }

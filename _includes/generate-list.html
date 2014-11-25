@@ -1,5 +1,5 @@
 <div class="container">
-	<div class="row">
+	<div class="row" id="collection-page">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			{% for page in site.pages %}
 		        {% if page.iscollection %}
@@ -7,10 +7,10 @@
 		    			<h1 class="post-title">
 		            		{{ page.title }}
 		        		</h1>
-		        	{% if page.description %}
-		        		<h3 class="post-subtitle">
-		            		{{ page.description }}
-		        		</h3>
+		        	{% if page.blurb %}
+		        		<h5>
+		            		{{ page.blurb }}
+		        		</h5>
 		        	{% endif %}
 		    		</a>
 		    		<hr>

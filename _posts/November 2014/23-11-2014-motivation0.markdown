@@ -4,7 +4,7 @@ title: "Zeroth Motivation Monday"
 subtitle: "We are all in this together."
 header-img: "motivation0.jpg"
 tag: motivation
-collection: "Motivation"
+collection: "Motivation Monday"
 collection-url: "/motivation"
 credit: "https://www.flickr.com/photos/gemmastiles"
 ---
