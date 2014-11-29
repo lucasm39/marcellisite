@@ -426,3 +426,6 @@ body {
 #collection-page {
   width: 60%;
 }
+.bittypage {
+  max-width: 100%;
+}
