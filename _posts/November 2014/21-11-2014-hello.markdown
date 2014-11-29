@@ -17,5 +17,5 @@ Join me on a quest to find myself or something.
 
 <div class="img-center">
 	<img src="/img/2014-nov-posts/adventure.gif" title="Come on grab your friends!">
-	<p class="under-img-text">Finding myself isn't as cool as Adventure Time though.<p>
+	<p>Finding myself isn't as cool as Adventure Time though.<p>
 </div>

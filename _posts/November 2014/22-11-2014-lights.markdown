@@ -28,8 +28,8 @@ Humanity is truly amazing. Only a hundred years ago, most of the technology we t
 Bearing all this in mind, can someone *please* explain to me how this is still a problem that exists:
 
 <div class="img-center">
-	<img src="/img/2014-nov-posts/stupidtree.jpg" title="Spot the kitty!" width="50%">
-	<p class="under-img-text">Every year! Every single year!</p>
+	<img src="/img/2014-nov-posts/stupidtree.jpg" title="Spot the kitty!">
+	<p>Every year! Every single year!</p>
 </div>
 
 *"It's not all bad,"* one might say, *"At least they make it so only part of the lights are off because one is burned out. You can find the dead one!"*

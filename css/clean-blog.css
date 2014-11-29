@@ -418,14 +418,14 @@ body {
 .img-center {
   text-align: center;
 }
-.under-img-text {
+.img-center img {
+  max-width: 100%;
+}
+.img-center p {
   font-size: 18px;
   margin-top: 10px;
   font-style: italic;
 }
 #collection-page {
   width: 60%;
-}
-#bittypage {
-  max-width: 100%;
 }

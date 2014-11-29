@@ -13,7 +13,7 @@ Me yesterday when it started snowing:
 
 <div class="img-center">
 	<img src="/img/2014-nov-posts/snowcat.gif">
-	<p class="under-img-text">Look outside! It's snowing! It's so pretty! Wanna build a snowman?</p>
+	<p>Look outside! It's snowing! It's so pretty! Wanna build a snowman?</p>
 </div>
 
 Me today when I was walking outside:

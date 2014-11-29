@@ -15,7 +15,7 @@ Today I decided to do that.
 
 <div class="img-center">
 	<img src="/img/2014-nov-posts/shame.gif">
-	<p class="under-img-text">Oh God Why?</p>
+	<p>Oh God Why?</p>
 </div>
 
 It was kind of horrible. It is so weird how much change can happen in both someone's person and life in only a year. I'm not even remotely the same person I was then, but I like to think most of that change has been growth. 
