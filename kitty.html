@@ -12,7 +12,7 @@ nav: "yes"
 
 <div class="img-center">
 	  {% directory path: img/bitty reverse: true %}
-	      <img class="bittypage"
+	      <img id="bittypage"
 	      	   src="{{ file.url }}"
 	           alt="{{ file.name }}"
 	           datetime="{{ file.date | date_to_xmlschema }}" />
