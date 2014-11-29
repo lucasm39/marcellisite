@@ -30,7 +30,12 @@ It was almost perfect! I just added one little line of code:
 
 `slug.gsub!(/\d+/, '')`
 
-This removed any numbers from `slug`, which means I could prepend numbers to my filenames to make them showup in the order I wanted. I chose to prepend them with 3 digits, effectivley giving me 899 photos on the page before I have to figure out a better way. 
+This removed any numbers from `slug`, which means I could prepend numbers to my filenames to make them showup in the order I wanted. I chose to prepend them with 3 digits, effectivley giving me 899 photos on the page before I have to figure out a better way. This resulted in a pretty funny looking folder:
+
+<div class="img-center">
+	<img src="/img/2014-nov-posts/result.png" title="So much kitty">
+	<p>I wonder how long it'll be until I need to use 4 digits...</p>
+</div>
 
 Once I did that, all that was left was simply writing a for loop like so:
 
