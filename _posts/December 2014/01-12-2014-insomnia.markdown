@@ -11,7 +11,7 @@ credit: "https://www.flickr.com/photos/rejik/"
 
 I really can not get to sleep. 
 
-I'm writing this at 3:47 AM, thought it probably wont be published until later. I'm not tired. I am just sitting here typing instead of in bed with my cat.
+I'm writing this at 3:47 AM, though it probably wont be published until later. I'm not tired. I am just sitting here typing instead of in bed with my cat.
 
 I didn't waste these hours at least. I did some website work! Yay! (also I played a lot of counter strike)
 
@@ -26,7 +26,7 @@ It really intrigued me to see the spikes in the data. I wanted to know more, but
 
 I set off on the quest which would surely challenge my coding abili---
 
-Wait... all I need to do is add this piece of javascript to my default.html?
+Wait... all I need to do is add this piece of javascript to my default.html? Man I love Jekyll layouts. 
 
 This feels too easy. Is it really that easy?
 
