@@ -12,14 +12,14 @@ credit: "https://www.flickr.com/photos/simon__syon/"
 Me yesterday when it started snowing:
 
 <div class="img-center">
-	<img src="/img/2014-nov-posts/snowcat.gif">
+	<img src="/img/2014Nov/snowcat.gif">
 	<p>Look outside! It's snowing! It's so pretty! Wanna build a snowman?</p>
 </div>
 
 Me today when I was walking outside:
 
 <div class="img-center">
-	<img src="/img/2014-nov-posts/icerobot.gif">
+	<img src="/img/2014Nov/icerobot.gif">
 	<p class="under-img-text">Shit shit shit shit</p>
 </div>
 

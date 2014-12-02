@@ -14,7 +14,7 @@ Have you ever sat down and thought about the way you were a year ago?
 Today I decided to do that.
 
 <div class="img-center">
-	<img src="/img/2014-nov-posts/shame.gif">
+	<img src="/img/2014Nov/shame.gif">
 	<p>Oh God Why?</p>
 </div>
 
