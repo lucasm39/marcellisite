@@ -28,7 +28,7 @@ Humanity is truly amazing. Only a hundred years ago, most of the technology we t
 Bearing all this in mind, can someone *please* explain to me how this is still a problem that exists:
 
 <div class="img-center">
-	<img src="/img/2014-nov-posts/stupidtree.jpg" title="Spot the kitty!">
+	<img src="/img/2014Nov/stupidtree.jpg" title="Spot the kitty!">
 	<p>Every year! Every single year!</p>
 </div>
 
