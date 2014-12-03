@@ -4,7 +4,7 @@ title: "Couldn't really sleep last night"
 subtitle: "Better mess with my website. That'll make me sleep."
 header-img: "zzz.jpg"
 tag: nonsense
-collection: "nonsense"
+collection: "Nonsense"
 collection-url: "/nonsense"
 credit: "https://www.flickr.com/photos/rejik/"
 ---
