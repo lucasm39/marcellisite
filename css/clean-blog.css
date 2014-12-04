@@ -423,8 +423,8 @@ body {
   max-height: 90%;
 }
 .img-center p {
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 85%;
+  margin-top: 5px;
   font-style: italic;
 }
 #collection-page {

@@ -59,8 +59,8 @@ With the `img-center` class looking like so:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`max-width: 100%;` <br>
 `}` <br>
 `.img-center p {` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`font-size: 18px;` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`margin-top: 10px;` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`font-size: 85%;` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`margin-top: 5px;` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`font-style: italic;` <br>
 `}`
 
