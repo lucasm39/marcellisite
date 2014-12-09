@@ -11,7 +11,7 @@ credit: "https://www.flickr.com/photos/paranoiasdelavida/"
 
 Our brains sort of suck. There are a billion different things that can go wrong with it, it weakens as you age, and - if we are being real here - it really likes to mess with us too.
 
-Procrastination is the worst thing our brains can do to us. 
+Procrastination is one of the worst thing our brains can do to us. 
 
 It is exam time, and a lot of the stress around us is self-inflicted because of procrastinating and apathy finally catching up to everyone. 
 
