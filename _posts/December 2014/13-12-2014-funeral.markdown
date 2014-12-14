@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "I went to a funeral"
-header-img: ""
+header-img: "soft.jpg"
 tag: nonsense
 collection: "Nonsense"
-collection-url: "/Nonsense"
+collection-url: "/nonsense"
 credit: ""
 ---
 
