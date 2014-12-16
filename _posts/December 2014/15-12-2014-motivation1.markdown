@@ -23,7 +23,7 @@ I missed something small:
 
 The `watch` flag tells Jekyll to regenerate any changes, as long as they aren't part of `config.yml`.
 
-I decided to take that silly mistake as a metaphor. Things won't change if you're not looking for the oppourtunity and acting accordingly. When different situations come your way, you have to make sure you see them for what they are and change what needs to be changed. 
+I decided to take that silly mistake as a metaphor. Things won't change if you're not looking for the opportunity and acting accordingly. When different situations come your way, you have to make sure you see them for what they are and change what needs to be changed. 
 
 This might all be a bit of a strech, but I'm in a motivating mood. 
 
