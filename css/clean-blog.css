@@ -430,3 +430,62 @@ body {
 #collection-page {
   width: 60%;
 }
+
+.group {
+  display: block;
+}
+
+.group div {
+  text-align: center;
+  float: left;
+  margin-top: 4%;
+  padding-bottom: 48%;
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  background-size:cover;
+}
+
+.group p {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.box-right{
+  min-width: 48%;
+  margin-left: 4%;
+}
+
+.box-left{
+  min-width: 48%;
+}
+
+#alone {
+  width: 100%;
+  margin-left: none;
+}
+
+#alone p{
+  width: 100%; 
+}
+
+#hover-content {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  position: absolute;
+  opacity: 0;
+  width: 47.5%;
+  margin: 0;
+  text-align: justify;
+  border: none;
+  max-height: 100%;
+  -webkit-transition: opacity 350ms;
+  -moz-transition: opacity 350ms;
+  -o-transition: opacity 350ms;
+  transition: opacity 350ms;
+
+}
+#hover-content:hover {
+  opacity: 1;
+}
