@@ -485,6 +485,7 @@ body {
   margin: 0;
   text-align: justify;
   border: none;
+  max-height: 100%;
   -webkit-transition: opacity 350ms;
   -moz-transition: opacity 350ms;
   -o-transition: opacity 350ms;
