@@ -1,3 +1,6 @@
+html,body{
+  height: 100%;
+}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -443,11 +446,14 @@ body {
   background-color: #FFFFFF;
   border: 2px solid black;
   background-size:cover;
+  overflow: hidden;
 }
 
 .group p {
   margin-left: 12px;
   margin-right: 12px;
+  font-size: 18pt;
+  border: 2px white;
 }
 
 .box-right{
@@ -465,12 +471,12 @@ body {
 }
 
 #alone p{
-  width: 100%; 
+  width: 100%;
 }
 
 #hover-content {
-  background: rgba(0,0,0,0.8);
-  color: white;
+  background: rgba(255,255,255,0.3);
+  color: black;
   cursor: pointer;
   display: table;
   position: absolute;
@@ -479,16 +485,16 @@ body {
   margin: 0;
   text-align: justify;
   border: none;
-  max-height: 100%;
   -webkit-transition: opacity 350ms;
   -moz-transition: opacity 350ms;
   -o-transition: opacity 350ms;
   transition: opacity 350ms;
-
+  padding: none;
 }
+
+
 #hover-content:hover {
   opacity: 1;
-}
-#justify-it{
+}#justify-it{
   text-align: justify;
 }
