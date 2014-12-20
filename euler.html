@@ -4,3 +4,36 @@ title: "Project Euler"
 description: "This'll be fun."
 header-img: "euler.jpg"
 ---
+
+<p>
+	<a href="https://projecteuler.net/">Project Euler</a> is a series of programming problems that get more and more difficult but teach you new ideas with each problem. 
+</p>
+
+<p>
+	A <a href="https://github.com/lucasmarcelli/euler/">Github</a> exists with all the code.
+</p>
+
+<p>
+	Below are blog posts detailing how I solved different problems. 
+</p>
+
+<p>
+	Enjoy!
+</p>
+
+{% for post in site.posts %}
+	{% if post.euler %}
+		<div class="preview-post">
+    		<a href="{{ post.url | prepend: site.baseurl }}">
+        		<h2 class="post-title">
+            		{{ post.title }}
+        		</h2>
+        		{% if post.subtitle %}
+        			<h3 class="post-subtitle">
+            			{{ post.subtitle }}
+        			</h3>
+        		{% endif %}
+   			</a>
+    	</div>    		
+	{% endif %}
+{% endfor %}
