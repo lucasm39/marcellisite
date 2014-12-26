@@ -496,3 +496,7 @@ body {
 #hover-content:hover {
   opacity: 1;
 }
+
+#go-right{
+  float: right;
+}

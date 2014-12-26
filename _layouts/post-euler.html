@@ -32,17 +32,21 @@ comments: true
 
                 <ul class="pager">
                     {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a> 
-                    </li>
+                        <li class="previous">
+                            <a href="{{ page.previous.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a> 
+                        </li>
                     {% endif %} 
-                    <li class="back">
-                        <a href="/euler" data-toggle="tooltip" data-placement="top" title="Take me back!">Back to Euler</a> 
-                    </li>
                     {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
+                        <li class="back">
+                            <a href="/euler" data-toggle="tooltip" data-placement="top" title="Take me back!">Back to Euler</a> 
+                        </li>
+                        <li class="next">
+                            <a href="{{ page.next.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                        </li>
+                    {% else %}
+                        <li class="back" id="go-right">
+                            <a href="/euler" data-toggle="tooltip" data-placement="top" title="Take me back!">Back to Euler</a> 
+                        </li>
                     {% endif %} 
                 </ul>
                 <div class="post-end">
