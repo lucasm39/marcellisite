@@ -430,3 +430,7 @@ body {
 #collection-page {
   width: 60%;
 }
+
+#justify-it{
+  text-align: justify;
+}

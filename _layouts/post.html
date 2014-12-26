@@ -22,7 +22,7 @@ comments: true
 
 <!-- Post Content -->
 <article>
-    <div class="container">
+    <div class="container" id="justify-it">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
@@ -35,7 +35,7 @@ comments: true
                     <li class="previous">
                         <a href="{{ page.previous.url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a> 
                     </li>
-                    {% endif %} 
+                    {% endif %}
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
