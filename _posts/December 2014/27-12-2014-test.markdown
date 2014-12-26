@@ -1,6 +1,0 @@
----
-layout: post-euler
-title: "Problems 1 and 2"
-subtitle: "Easy Peasy."
-euler: "yes"
----
