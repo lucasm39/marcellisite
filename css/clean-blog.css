@@ -497,6 +497,10 @@ body {
   opacity: 1;
 }
 
+#justify-it{
+  text-align: justify;
+}
+
 #go-right{
   float: right;
 }
