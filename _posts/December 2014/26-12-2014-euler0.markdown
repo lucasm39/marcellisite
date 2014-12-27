@@ -1,6 +1,28 @@
 ---
 layout: post-euler
-title: "Problems 1 and 2"
+title: "Problem 1"
 subtitle: "Easy Peasy."
 euler: "yes"
 ---
+
+So here we start Project Euler. I wont be doing the problems neccesarily in order, but it'll be pretty close. I'll give thourough explanations for my code and my processes in understanding how to tackle the problems as I go along. However, the first couple problems are incredibly easy.
+
+It wouldn't make much sense to do a long winded solution, so I'm going to use this post to simply introduce the idea. On my [Github](http://github.com/lucasmarcelli/euler) the euler repo will contain all the code I run to come to my solutions. Each post will solve one problem, and each problem will have a folder, including code that doesn't work.
+
+Directly after solving problem 1, this comes up:
+
+<div class="img-center">
+	<img src="/img/2014Dec/euler.png" title="Lol">
+</div> 
+
+However I looked around online and there is already a ton of solutions out there, so I don't even feel bad. 
+
+The first problem is very easy:
+
+<script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=0:2&footer=0"></script>
+
+And the solution is similarly easy. Simply loop from 0 to 1000 and mod by 5 or 3. If either one is 0, add it to a running sum:
+
+<script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=3:&footer=0"></script>
+
+Which will give you the answer you need to complete the problem!
