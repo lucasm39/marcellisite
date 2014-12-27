@@ -14,7 +14,7 @@ Directly after solving problem 1, this comes up:
 	<img src="/img/2014Dec/euler.png" title="Lol">
 </div> 
 
-However I looked around online and there is already a ton of solutions out there, so I don't even feel bad. 
+However I looked around online and there is already a ton of solutions out readily available, so I don't even feel bad. 
 
 The first problem is very easy:
 
