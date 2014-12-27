@@ -1,3 +1,6 @@
+html,body{
+  height: 100%;
+}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -431,6 +434,73 @@ body {
   width: 60%;
 }
 
+.group {
+  display: block;
+}
+
+.group div {
+  text-align: center;
+  float: left;
+  margin-top: 4%;
+  padding-bottom: 48%;
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  background-size:cover;
+  overflow: hidden;
+}
+
+.group p {
+  margin-left: 15px;
+  margin-right: 25px;
+  font-size: 18pt;
+  border: 2px white;
+}
+
+.box-right{
+  min-width: 48%;
+  margin-left: 4%;
+}
+
+.box-left{
+  min-width: 48%;
+}
+
+#alone {
+  width: 100%;
+  margin-left: none;
+}
+
+#alone p{
+  width: 100%;
+}
+
+#hover-content {
+  background: rgba(255,255,255,0.3);
+  color: black;
+  cursor: pointer;
+  display: table;
+  position: absolute;
+  opacity: 0;
+  width: 47.5%;
+  margin: 0;
+  text-align: justify;
+  border: none;
+  -webkit-transition: opacity 350ms;
+  -moz-transition: opacity 350ms;
+  -o-transition: opacity 350ms;
+  transition: opacity 350ms;
+  padding: none;
+}
+
+
+#hover-content:hover {
+  opacity: 1;
+}
+
 #justify-it{
   text-align: justify;
+}
+
+#go-right{
+  float: right;
 }

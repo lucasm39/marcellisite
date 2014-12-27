@@ -9,7 +9,11 @@ nav: "yes"
 <div class="preview-post">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            {{ post.title }}
+            {% if post.euler %}
+                Project Euler: {{ post.title }}
+            {% else %}
+                {{ post.title }}
+            {% endif %}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
