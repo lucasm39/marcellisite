@@ -16,11 +16,11 @@ Directly after solving problem 1, this comes up:
 
 However I looked around online and there is already a ton of solutions out readily available, so I don't even feel bad. 
 
-The first problem is very easy:
+The first problem is nice and straightforward:
 
 <script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=0:2&footer=0"></script>
 
-And the solution is similarly easy. Simply loop from 0 to 1000 and mod by 5 or 3. If either i mod 5 or i mod 3 is 0, add it to a running sum:
+And the solution is similarly straightforward. Simply loop from 0 to 1000 and mod by 5 or 3. If either i mod 5 or i mod 3 is 0, add it to a running sum:
 
 <script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=3:&footer=0"></script>
 
