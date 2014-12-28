@@ -113,3 +113,16 @@
   left:0;
   right:0;
 }
+
+/*For some reason, the first cell in the table shrinks slightly after the hover. The following adds an invisible cell to avoid this */
+
+#none{
+  padding: none !important;
+  background-size: 0 !important;
+  border: 0 !important;
+}
+
+#none:after{
+  display:none !important;
+  margin-top: 0 !important;
+}
