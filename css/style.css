@@ -58,18 +58,14 @@
   background: rgba(255,255,255,0.3);
   color: black;
   cursor: pointer;
-  display: table;
-  position: absolute;
   opacity: 0;
-  width: 47.5%;
-  margin: 0;
-  text-align: justify;
-  border: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   -webkit-transition: opacity 350ms;
   -moz-transition: opacity 350ms;
   -o-transition: opacity 350ms;
   transition: opacity 350ms;
-  padding: none;
 }
 
 
@@ -83,4 +79,50 @@
 
 #go-right{
   float: right;
+}
+
+#center-it{
+  text-align: center;
+}
+
+.project-table{
+  margin: 0 auto;
+  border-collapse: separate; 
+  border-spacing: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.project-table td{
+  background-size: cover;
+  border: 1px solid black;
+  background-position: center;
+  position: relative;
+}
+
+.project-table td:after{
+  content:'';
+  display:block;
+  margin-top:100%;
+}
+
+.project-div {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+/*For some reason, the first cell in the table shrinks slightly after the hover. The following adds an invisible cell to avoid this */
+
+#none{
+  padding: none !important;
+  background-size: 0 !important;
+  border: 0 !important;
+}
+
+#none:after{
+  display:none !important;
+  margin-top: 0 !important;
 }
