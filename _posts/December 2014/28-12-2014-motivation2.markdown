@@ -11,6 +11,7 @@ credit: "http://asadchishti.com"
 
 With the recent launch of my [projects](/projects) page, I ran into a whole set of problems. The first most obvious one is the lack of mobile support, but I'm working on that. A much more subtle and annoying one is this:
 
+
 <div class="img-center">
 	<img src="/img/2014Dec/before.png" title="Seriously.">
 	<p> Before Mouseover </p>
