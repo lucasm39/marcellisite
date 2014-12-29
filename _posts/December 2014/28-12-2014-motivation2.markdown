@@ -26,11 +26,13 @@ This drove me insane. I spent a long time in the "inspect element" portion of ch
 First I swapped the positions. I noticed that the first table cell always shrinks, regardless of whats in it. So I came up with a really elegant solution.
 
 I made an empty table cell like this:
+<br>
 
 {% gist lucasmarcelli/b8eb146408783fd3ddb4 %}
 
 and used the !important tag in the css file to override what gets inherited and make it an invisible cell.
 
+<br>
 {% gist lucasmarcelli/4cd273b4cee214656d66 %}
 
 This worked perfectly! ..Now for the stretch into a metaphor!
