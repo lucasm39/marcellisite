@@ -117,7 +117,7 @@
 /*For some reason, the first cell in the table shrinks slightly after the hover. The following adds an invisible cell to avoid this */
 
 #none{
-  padding: none !important;
+  padding: 0 !important;
   background-size: 0 !important;
   border: 0 !important;
 }
