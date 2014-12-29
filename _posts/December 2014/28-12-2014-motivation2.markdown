@@ -26,18 +26,17 @@ First I swapped the positions. I noticed that the first table cell always shrink
 
 I made an empty table cell like this:
 
-`<td id="none">` <br>
-`</td>`
+{% gist lucasmarcelli/b8eb146408783fd3ddb4 %}
 
 And used the !important tag in the css file to override what gets inherited and make it an invisible cell.
 
-<script src="https://gist.github.com/lucasmarcelli/2ef7a23cc1323b14ee0d.js"></script>
+{% gist lucasmarcelli/4cd273b4cee214656d66 %}
 
 Which worked perfectly!
 
 Now for the stretch into a metaphor!
 
-Sometimes the answer requires a lot of creativity. Prepare yourself to deal with problems in a way that you might not expect. It was certainly not my first thought to make an empty cell, but when I came up with the solution it really felt like it should have been staring me in the face. 
+Sometimes the answer requires a lot of creativity. Prepare yourself to deal with problems in a way that you might not expect. It was certainly not my first thought to make an empty cell, but when I came up with the solution it really felt like it should have been staring me in the face. Remember that the tools you use to solve problems are dumb, it's your own creativity that will end up getting you a great solution.
 
 Coming up with creative solutions is really important, especially in programming. We'd still be using bubble sort if noone thought to improve the way we do things creativley. Learning how to program really does teach you to think out of the box, and it can be applied to real life too. Don't give up on any problems, always strive to push forward and come up with better ways to do things.
 
