@@ -3,9 +3,9 @@ layout: post
 title: "Couldn't really sleep last night"
 subtitle: "Better mess with my website. That'll make me sleep."
 header-img: "zzz.jpg"
-tag: nonsense
-collection: "Nonsense"
-collection-url: "/nonsense"
+tag: code
+collection: "Coding and Technology"
+collection-url: "/coding"
 credit: "https://www.flickr.com/photos/rejik/"
 ---
 
