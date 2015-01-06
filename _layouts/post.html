@@ -43,6 +43,9 @@ comments: true
                     {% endif %} 
                 </ul>
                 <div class="post-end">
+                    <p> This is part of the <a href={{ page.collection-url }}>{{ page.collection }} collection. </a></p>
+                </div>
+                <div class="post-end">
                     <p> Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }} <br>
                      {{ page.author }} is a {{ page.schoolyear }} year {{ page.schooltype }} at {{ page.school }} studying Computing.</p>
                 </div>
