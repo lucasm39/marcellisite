@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Lucas' Blog and Website</title>
+    <link>http://marcelli.ca</link>
+    <description>My name is Lucas Marcelli. I like coding, cats and space. This is my website.</description>
+    <pubDate>Sat, 03 Jan 2015 00:00:00 -0500</pubDate>
+    <item>
+      <title>It's a new year</title>
+      <link>http://marcelli.ca/2015/01/03/anxiety/</link>
+      <description><![CDATA[A little less than a year ago, I wrote a big Facebook Post about mental health. Looking back at this moment, I realized that it was the start of a new era for me.
+
+]]></description>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2015/01/03/anxiety/</guid>
+      <content:encoded><![CDATA[<p>A little less than a year ago, I wrote a big <a href="https://www.facebook.com/lmarcelli/posts/10152018814027957?pnref=story">Facebook Post</a> about mental health. Looking back at this moment, I realized that it was the start of a new era for me.</p>
+
+<p>Nine months has passed and thankfully, I’m doing much better now than I was back then. Living with an Anxiety Disorder for so many years without even knowing that it was the reason I felt so terrible all the time was not a fun time.</p>
+
+<p>The post I made addressed the issue of so people not having an understanding, and therefore failing to accommodate those with mental illness in the same way as a visible disability, or a bodily illness like cancer. I know that my story and opportunities aren’t necessarily representative of everyone but over the last year I’m happy to say that I have been proven wrong.</p>
+
+<p>Since being more open about my anxiety, I have found support at every turn. I had to take the first step myself, which is something we still need to work on making easier. Once I did though, the support came pouring in. Beyond that, I’ve learned how many people around me, many of whom I am friends with, are dealing with mental illness issues. </p>
+
+<p>If you’re struggling this year, please reach out. I’m always here. </p>
+
+<p>I love you all &lt;3.</p>
+]]></content:encoded>
+      <dc:date>2015-01-03T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Second Motivation Monday</title>
+      <link>http://marcelli.ca/2014/12/28/motivation2/</link>
+      <description><![CDATA[With the recent launch of my projects page, I ran into a whole set of problems. The first most obvious one is the lack of mobile support, but I&#8217;m working on that. A much more subtle and annoying one is this:
+
+
+]]></description>
+      <pubDate>Sun, 28 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/28/motivation2/</guid>
+      <content:encoded><![CDATA[<p>With the recent launch of my <a href="/projects">projects</a> page, I ran into a whole set of problems. The first most obvious one is the lack of mobile support, but I’m working on that. A much more subtle and annoying one is this:
+<br /></p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/before.png" title="Seriously." />
+	<p> Before Mouseover </p>
+	<img src="/img/2014Dec/after.png" title="Seriously." />
+	<p> After Mouseover </p>
+</div>
+
+<p>If you don’t see it, look at the portrait of Euler. It gets slightly smaller after mousing over for no real reason. </p>
+
+<p>This drove me insane. I spent a long time in the “inspect element” portion of chrome trying different things, but then I realized something, what if I’m approaching it all wrong?</p>
+
+<p>First I swapped the positions. I noticed that the first table cell always shrinks, regardless of whats in it. So I came up with a really elegant solution.</p>
+
+<p>I made an empty table cell like this:
+<br /></p>
+
+<script src="https://gist.github.com/lucasmarcelli/b8eb146408783fd3ddb4.js"> </script>
+
+<p>and used the !important tag in the css file to override what gets inherited and make it an invisible cell.</p>
+
+<p><br />
+<script src="https://gist.github.com/lucasmarcelli/4cd273b4cee214656d66.js"> </script></p>
+
+<p>This worked perfectly! ..Now for the stretch into a metaphor!</p>
+
+<p>Sometimes the answer requires a lot of creativity. Prepare to deal with problems in a way that you might not expect. It was certainly not my first thought to make an empty cell, but when I came up with the solution it really felt like it should have been staring me in the face. Remember that the tools you use to solve problems are dumb and that often enough, your own creativity that will end up getting you a great solution.</p>
+
+<p>Coming up with creative solutions is really important, especially in programming. We’d still be using bubble sort if no one thought to improve the way we do things creatively. Learning how to program really does teach you to think out of the box, and it can be applied to real life too. Don’t give up on any problems, always strive to push forward and come up with better ways to do things.</p>
+
+<p>As always, I love you all. </p>
+]]></content:encoded>
+      <dc:date>2014-12-28T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Problem 1</title>
+      <link>http://marcelli.ca/2014/12/26/euler0/</link>
+      <description><![CDATA[I&#8217;ve been doing Project Euler for year and have always wanted to document the process. Documentation is a good skill to have, and I am always trying to refine the best ways to help teach others programming skills. I won&#8217;t necessarily be doing the problems in order, but it should be pretty close. I&#8217;ll give thorough explanations for my code and my processes in understanding how to tackle the problems as I go along. However, the first couple problems are incredibly easy.
+
+]]></description>
+      <pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/26/euler0/</guid>
+      <content:encoded><![CDATA[<p>I’ve been doing Project Euler for year and have always wanted to document the process. Documentation is a good skill to have, and I am always trying to refine the best ways to help teach others programming skills. I won’t necessarily be doing the problems in order, but it should be pretty close. I’ll give thorough explanations for my code and my processes in understanding how to tackle the problems as I go along. However, the first couple problems are incredibly easy.</p>
+
+<p>It wouldn’t make much sense to do a long winded solution, so I’m going to use this post to simply introduce the idea. On my <a href="http://github.com/lucasmarcelli/euler">Github</a> the euler repo will contain all the code I run to come to my solutions. Each post will solve one problem, and each problem will have a folder, including code that doesn’t work.</p>
+
+<p>Directly after solving problem 1, this comes up:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/euler.png" title="Lol" />
+</div>
+
+<p>However I looked around online and there is already a ton of solutions out readily available, so I don’t even feel bad. </p>
+
+<p>The first problem is nice and straightforward:</p>
+
+<script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=0:2&amp;footer=0"></script>
+
+<p>And the solution is similarly straightforward. Simply loop from 0 to 1000 and mod by 5 or 3. If either i mod 5 or i mod 3 is 0, add it to a running sum:</p>
+
+<script src="http://gist-it.appspot.com/github/lucasmarcelli/euler/blob/master/Problem-1/problem1.py?slice=3:&amp;footer=0"></script>
+
+<p>This sum will give you the answer you need to solve the problem!</p>
+]]></content:encoded>
+      <dc:date>2014-12-26T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Christmas is family time</title>
+      <link>http://marcelli.ca/2014/12/23/family/</link>
+      <description><![CDATA[Being Italian means I was raised very strictly Roman Catholic. Church every week, singing in choir, altar serving to the point of receiving a medal for my years of service to the Holy See. 
+
+]]></description>
+      <pubDate>Tue, 23 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/23/family/</guid>
+      <content:encoded><![CDATA[<p>Being Italian means I was raised very strictly Roman Catholic. Church every week, singing in choir, altar serving to the point of receiving a medal for my years of service to the Holy See. </p>
+
+<p>Catholicism values family above most things, especially in Italy. Not going home for Christmas is one of the things that will set my dear mother off, speaking of which, meet my mom:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/mom.jpg" title="Snow!" />
+	<p>What kind of psycho runs in this weather?</p>
+</div>
+
+<p>My mother Sandra is a wonderful person. She is really caring and will go to the ends of the earth to try and make anything you need happen. She’s a wonderful cook and I don’t think anyone else in the world can keep a place clean like she can. She doesn’t always get along with me, but that’s mostly my fault I guess. We just have really strong ideas about what the right things to do are, and they often differ. That being said, I wouldn’t trade her for anyone or anything. My mom is always on my side, even if I don’t realize it. The biggest thing I learned over the last few years is <em>maybe</em> I should listen to my mom. Her strength and preserverance while immigrating and everything she has accomplished since is insanely impressive.</p>
+
+<p>Next up is my dad.</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/dad.jpg" title="Are those cops?" />
+	<p>Sandra that tickles! Stop!</p>
+</div>
+
+<p>My dad Ezio is hilariously awkward. Soft-spoken and gentle, when my dad gets angry he is really angry. Very much the opposite of my mom in a lot of ways, but they work really well together. My dad has a great Italian accent and often misspeaks in pretty funny ways, but he always knows what to say to make me feel better when I’m down. My dad is an amazing artist and worked really hard along with my mom when they immigrated here 30 years ago. We went from being fairly poor to having a beautiful house and enough money to be secure and happy thanks to the hard work that my dad put in every day, and still does. He is also an expert craftsmen, redoing our entire kitchen almost by himself recently, along with my mom:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/kitchen.jpg" title="You did this yourself?" />
+	<p>Who needs help. I'll just do everything! That way it's exactly how i want it.</p>
+</div>
+
+<p>My dad is a classic perfectionist and sometimes it grates on my nerves. The worst part is I can feel myself starting to become the same way. My dad is always on my side and I wouldn’t trade him for anything either.</p>
+
+<p>Now for my brother:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/david.jpg" title="I am the best chef" />
+	<p>That beard tho.</p>
+</div>
+
+<p>My brother and I are very alike but not actually at all. Anyone who knows both of us will tell you that there have never been two more different personalities that are immediate family. My brother and I both enjoy the same things, but while I’m an outspoken, often annoying, energy filled whirlwind (unless I’m at home, then I just like lazing around), David is a very reserved, soft spoken and quiet presence. He is 8 years older than me but has never let that stop him from being close with me. My brother is one of my very best friends and there is no other person I’d rather have playing dota or cs with me. We like to get together and just play video games in the same room, or go eat out. David is also the most talented chef in the world (okay I might be biased). His food is the thing I look forward to the most when I come home, and every time I go to eat at his workplace <a href="http://www.buca.ca/king">Buca</a> I am always so thoroughly satisfied I can’t eat the next day. He is always behind me when I need him, even when he can’t actively do anything to help. I feel a lot stronger knowing that he is supporting me.</p>
+
+<p>Next up is his wonderful wife, and my sister-in-law Jennifer!</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/jenny.jpg" title="So cute" />
+	<p>What a cute couple.</p>
+</div>
+
+<p>Jenny has been a part of my family since I was 12 or something. David brought her home after his cooking class one day, and the first thing she did was help me with my french homework. This obviously made 12 year old me love her and I’ve never changed that opinion since. Jenny is always laughing and is the easiest person to talk to in the world. In fact, if you ever feel awkward and Jenny is around, just start a conversation with her! She’s amazing at keeping the conversation going naturally and seamlessly, and she can probably talk enough for both of you! Jenny is the best sister I could have ever asked for, and I’m not actually sure how David managed to land such a wonderful wife. </p>
+
+<p>Now we arrive at the baby!</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/siena.jpg" title="So cute" />
+	<p>AaaaaaaaAAaAAAaaAAaAaaaAAaAaAaaaaaAAAAaaaA</p>
+</div>
+
+<p>Siena is the child of David and Jenny. She is 2.5 but is the size of a 4 year old. Volleyball and Basketball might be in her future. She has a very unique personality and is awfully manipulative for a baby. Hanging out with her she will make you feel like you’re literally her favourite personÉ but then the next person will get the same treatment. She is the cutest baby I have ever met (lol bias, but actually look at her come on). I love her to bits and the hardest thing about being away for school is being away from this little bundle of joy.</p>
+
+<p>Then there is my cat and Kelly, but they’ll get their own posts later.</p>
+
+<p>I love my family. I wouldn’t trade them for anything. Everyone should take a minute to think about what you love about your family. I was almost in tears writing this because I realized how important they are to me and how often I forget.</p>
+
+<p>Enjoy the holidays everyone.</p>
+]]></content:encoded>
+      <dc:date>2014-12-23T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Yesterday was my birthday</title>
+      <link>http://marcelli.ca/2014/12/19/birthday/</link>
+      <description><![CDATA[Yesterday was my birthday. I really enjoyed myself. I spent the day with Kelly just chilling and it was really nice. 
+
+]]></description>
+      <pubDate>Fri, 19 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/19/birthday/</guid>
+      <content:encoded><![CDATA[<p>Yesterday was my birthday. I really enjoyed myself. I spent the day with Kelly just chilling and it was really nice. </p>
+
+<p>First my brother got me this sick whiteboard:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/whiteboard.jpg" title="On a roll today." />
+	<p>It's so large!<sup><sup>Thats what she said</sup></sup> Oh, it also gets shorter when not in use.<sup><sup>THATS WHAT SHE SAID</sup></sup>  </p>
+</div>
+
+<p>I <em>love</em> whiteboards so much. There is no better tool for a programmer than a whiteboard. You can map out your problems and erase and change things as easy as typing things on an IDE. Every programmer should have a whiteboard. I think I have three or four in this house right now.</p>
+
+<p>Then Kelly and I spent the day relaxing for the first time since exams started. </p>
+
+<p>After that came the scary part. Kelly made me dinner.</p>
+
+<p>Kelly is the kind of girl who could burn water on the stove. I was very apprehensive but…</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/food.jpg" title="PO-TAY-TOE" />
+	<p> Mmmmmmmm </p>
+</div>
+
+<p>It turned out great! Asparagus, mashed potatoes, pork chops and carmalized apples. She picked a hard one but it tasted so good. </p>
+
+<p>Next was dessert. She made me rice krispy squares! I don’t like cake all that much so it was really nice.</p>
+
+<p>Then we did this:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/fort.jpg" title="The rope is literally the reason this works." />
+	<p> NO GIRLS ALLOWED </p>
+</div>
+
+<p>Forts! I love forts! If you’re ever feeling down, make a fort. </p>
+
+<p>That was my birthday.</p>
+
+<p>Every year I also like to make a list of things I learned that year. It’s often short because I’m stubborn. Here it is:</p>
+
+<ul>
+  <li>It’s okay to not be okay.</li>
+  <li>Life has a funny way of working out if you set reasonable goals.</li>
+  <li>Asking for help is key.</li>
+  <li>Life is too short to waste with people or things you don’t really like.</li>
+  <li>I really do love what I do.</li>
+</ul>
+
+<p>And lastly, thank you everyone for your birthday wishes.</p>
+
+<p>&lt;3</p>
+]]></content:encoded>
+      <dc:date>2014-12-19T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>First Motivation Monday</title>
+      <link>http://marcelli.ca/2014/12/15/motivation1/</link>
+      <description><![CDATA[I use Jekyll to serve this blog. One of my favourite parts about it is that it will regenerate your website locally as you save files without having to do anything, like so:
+
+]]></description>
+      <pubDate>Mon, 15 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/15/motivation1/</guid>
+      <content:encoded><![CDATA[<p>I use <a href="http://jekyllrb.com/">Jekyll</a> to serve this blog. One of my favourite parts about it is that it will regenerate your website locally as you save files without having to do anything, like so:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/regen.png" title="Ignore the error." />
+</div>
+
+<p>I was trying to work on the layout a bit, but no matter what I did when I saved, it would make me exit the process and restart it with <code>jekyll serve</code>.</p>
+
+<p>I missed something small: </p>
+
+<p><code>--watch</code></p>
+
+<p>The <code>watch</code> flag tells Jekyll to regenerate any changes, as long as they aren’t part of <code>config.yml</code>.</p>
+
+<p>I decided to take that silly mistake as a metaphor. Things won’t change if you’re not looking for the opportunity and acting accordingly. When different situations come your way, you have to make sure you see them for what they are and change what needs to be changed. </p>
+
+<p>This might all be a bit of a strech, but I’m in a motivating mood. </p>
+
+<p>And as always, I love you all &lt;3.</p>
+]]></content:encoded>
+      <dc:date>2014-12-15T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Procrastination</title>
+      <link>http://marcelli.ca/2014/12/08/procrastinate/</link>
+      <description><![CDATA[Our brains sort of suck. There are a billion different things that can go wrong with it, it weakens as you age, and - if we are being real here - it really likes to mess with us too.
+
+]]></description>
+      <pubDate>Mon, 08 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/08/procrastinate/</guid>
+      <content:encoded><![CDATA[<p>Our brains sort of suck. There are a billion different things that can go wrong with it, it weakens as you age, and - if we are being real here - it really likes to mess with us too.</p>
+
+<p>Procrastination is one of the worst thing our brains can do to us. </p>
+
+<p>It is exam time, and a lot of the stress around us is self-inflicted because of procrastinating and apathy finally catching up to everyone. </p>
+
+<p>Why is it that I know I have to study for my final exam tomorrow, but instead I’m writing this blog post? Why am I able to so easily justify spending my time playing with my cat or watching TV but studying is for <em>later?</em></p>
+
+<p>I should go on a long rant about <em>wanting</em> to do things vs <em>needing</em> to do them, or talk about how doing unrelated, but still “productive” things makes it a lot easier to ignore the impending dealines… but I don’t see why I can’t just do that tomorrow instead.<sup>lol</sup></p>
+]]></content:encoded>
+      <dc:date>2014-12-08T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Couldn't really sleep last night</title>
+      <link>http://marcelli.ca/2014/12/02/insomnia/</link>
+      <description><![CDATA[I really can not get to sleep. 
+
+]]></description>
+      <pubDate>Tue, 02 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/02/insomnia/</guid>
+      <content:encoded><![CDATA[<p>I really can not get to sleep. </p>
+
+<p>I’m writing this at 3:47 AM, though it probably wont be published until later. I’m not tired. I am just sitting here typing instead of in bed with my cat.</p>
+
+<p>I didn’t waste these hours at least. I did some website work! Yay! (also I played a lot of counter strike)</p>
+
+<p>It started when I noticed load times going higher on the site after posting my previous post. I knew it was the first time my droplet at Digital Ocean needed to actually handle a bit of traffic, so I went to go check on it and looked at the graphs:</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/graph.png" />
+	<p>Obligatory /r/dataisbeautiful</p>
+</div>
+
+<p>It really intrigued me to see the spikes in the data. I wanted to know more, but the graphs don’t show anything more detailed than bandwidth. I decided to set up the blog with Google analytics to track my data!</p>
+
+<p>I set off on the quest which would surely challenge my coding abili—</p>
+
+<p>Wait… all I need to do is add this piece of javascript to my default.html? Man I love Jekyll layouts. </p>
+
+<p>This feels too easy. Is it really that easy?</p>
+
+<div class="img-center">
+	<img src="/img/2014Dec/newgraph.png" />
+	<p>Yes. Yes it is.</p>
+</div>
+
+<p>Now I can see if people actually like my blog! Yay!</p>
+
+<p>Wait, is that <em>realtime</em> visit data? Wow Google, that’s pretty awesome.  </p>
+]]></content:encoded>
+      <dc:date>2014-12-02T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Putting my Life on Hold</title>
+      <link>http://marcelli.ca/2014/12/01/hold/</link>
+      <description><![CDATA[This past year has really given me a ton of hard choices to make. 
+
+]]></description>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/12/01/hold/</guid>
+      <content:encoded><![CDATA[<p>This past year has really given me a ton of hard choices to make. </p>
+
+<p>I had to make one of the scariest decisions of my life recently. I decided that I’m going to put all (many) my obligations on hold for a while, and focus on my health and sanity instead.</p>
+
+<p>The craziest thing is that I thought I had <em>definitely</em> already made the toughest/most important decisions of the year back in the early months of 2014. I guess being an adult means these come more often, which is kind of terrifying but it just means all the more opportunities to take a look at your priorities and improve yourself. </p>
+
+<p>I’ll be taking a sabbatical of sorts until May or September. I’ve deferred my Grad school acceptance into and I’ve trimmed down my obligations to try to give myself the least stressful time possible so I can really focus on the most important ones - obligations to myself - and learn how to balance those with my future in research and grad school. </p>
+
+<p>I’ve realized how terrifying it is to completely change your 5, or even 2 year plan, and that the people who surround me are equally terrified. The easiest decision is always no decision, to stay on the exact same track as before and remain passive. Hopefully this is for the best but I encourage everyone to take some time to reevaluate where you are going if you make no changes and if you’re happy with that. Deviating from the plan is scary but when it is necessary, it can be the most rewarding thing. </p>
+
+<p>I am really hopeful that taking this break will give me time to grow and flourish and be the best that I can be. Making this website is Step 1. Making this post is Step 2.</p>
+]]></content:encoded>
+      <dc:date>2014-12-01T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Generating the Kitty Page</title>
+      <link>http://marcelli.ca/2014/11/29/bittypage/</link>
+      <description><![CDATA[I really like my cat.
+
+]]></description>
+      <pubDate>Sat, 29 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/29/bittypage/</guid>
+      <content:encoded><![CDATA[<p><a href="/kitty">I really like my cat.</a></p>
+
+<p>I wanted to make a page where I could drop photos of my cat and they would automagically populate the page, but since I’m using <a href="http://jekyllrb.com/">Jekyll</a>, which only serves static content, this proved to be a bit more complicated than I expected.</p>
+
+<p>My initial idea was to simply to loop through a folder of cleverly named photos (1.jpg, 2.jpg etc) using a liquid for loop, like so:</p>
+
+<p><code></code> <br />
+     <code>&lt;img src="/img/bitty/1.jpg"&gt;</code> <br />
+<code></code> <br />
+     <code>&lt;img src="/img/bitty/2.jpg"&gt;</code> <br />
+<code></code> <br />
+     <code>&lt;img src="/img/bitty/3.jpg"&gt;</code> <br />
+<code></code> <br />
+     <code>&lt;img src="/img/bitty/4.jpg"&gt;</code> <br />
+<code></code> <br />
+     <code>&lt;img src="/img/bitty/5.jpg"&gt;</code> <br />
+<code></code></p>
+
+<p>This is actually a pretty elegant solution, but it has some problems. For one, every time I would want put a new photo in, I’d  have to increase the counter manually each time. This would also not allow me to include my genius little blurb underneath each photo.</p>
+
+<p>I knew that Jekyll wouldn’t give me anything like this out of the box, so this would have to be done through some sort of plugin. I <em>also</em> knew that I couldn’t be the only person who had ever wanted something like this, a suspicion that a quick Google search <a href="https://github.com/sillylogger/jekyll-directory/blob/master/_plugins/directory_tag.rb">confirmed</a>.</p>
+
+<p>This plugin generates a directory list according to the sames rules as <code>ls</code> on unix systems. I realized that by naming my pictures what I want the blurb to be, I could append it underneath using the <code>slug</code> attribute it creates for me. However, the files would be listed in alphabetical order. I wanted Bitty’s photos displayed in chronological order, with the newest at the top.</p>
+
+<p>It was almost perfect! I just added one little line of code:</p>
+
+<p><code>slug.gsub!(/\d+/, '')</code></p>
+
+<p>This removed any numbers from <code>slug</code>, which means I could prepend numbers to my filenames to make them showup in the order I wanted. I chose to prepend them with 3 digits, effectivley giving me 899 photos on the page before I have to figure out a better way. This resulted in a pretty funny looking folder:</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/result.png" title="So much kitty" />
+	<p>I wonder how long it'll be until I need to use 4 digits...</p>
+</div>
+
+<p>Once I did that, all that was left was simply writing a for loop like so:</p>
+
+<p><code>&lt;div class="img-center"&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/150Am I helping I bet I am.jpg"</code> <br />
+              <code>alt="150Am I helping I bet I am.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Am I helping I bet I am&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/149I missed you.jpg"</code> <br />
+              <code>alt="149I missed you.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I missed you&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/148I will be the only cat here.jpg"</code> <br />
+              <code>alt="148I will be the only cat here.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I will be the only cat here&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/147Wow this cat is the best.jpg"</code> <br />
+              <code>alt="147Wow this cat is the best.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Wow this cat is the best&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/146Did she actually get her to stay like that.jpg"</code> <br />
+              <code>alt="146Did she actually get her to stay like that.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Did she actually get her to stay like that&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/144I put up with so much honestly.jpg"</code> <br />
+              <code>alt="144I put up with so much honestly.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I put up with so much honestly&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/143Oh hey.jpg"</code> <br />
+              <code>alt="143Oh hey.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Oh hey&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/142My tail is my pillow.jpg"</code> <br />
+              <code>alt="142My tail is my pillow.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;My tail is my pillow&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/141Can you feed me please.jpg"</code> <br />
+              <code>alt="141Can you feed me please.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Can you feed me please&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/140I must channel my inner samus.jpg"</code> <br />
+              <code>alt="140I must channel my inner samus.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I must channel my inner samus&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/138Dawwww.jpg"</code> <br />
+              <code>alt="138Dawwww.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Dawwww&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/137Was the flash neccesary.jpg"</code> <br />
+              <code>alt="137Was the flash neccesary.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Was the flash neccesary&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/136Oh hay gurl.jpg"</code> <br />
+              <code>alt="136Oh hay gurl.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Oh hay gurl&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/135zzzzzzz.jpg"</code> <br />
+              <code>alt="135zzzzzzz.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;zzzzzzz&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/134Found your shoelace.jpg"</code> <br />
+              <code>alt="134Found your shoelace.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Found your shoelace&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/133zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.jpg"</code> <br />
+              <code>alt="133zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/132I suppose you can cuddle me once in a while.jpg"</code> <br />
+              <code>alt="132I suppose you can cuddle me once in a while.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I suppose you can cuddle me once in a while&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/131Hey sup human stop playing cs and pay attention to me.jpg"</code> <br />
+              <code>alt="131Hey sup human stop playing cs and pay attention to me.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Hey sup human stop playing cs and pay attention to me&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/130Purrrr.jpg"</code> <br />
+              <code>alt="130Purrrr.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Purrrr&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/129Wait a second.jpg"</code> <br />
+              <code>alt="129Wait a second.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Wait a second&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/128Is that.jpg"</code> <br />
+              <code>alt="128Is that.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Is that&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/127A camera.jpg"</code> <br />
+              <code>alt="127A camera.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;A camera&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/126I don't wanna take pictures.jpg"</code> <br />
+              <code>alt="126I don't wanna take pictures.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I don't wanna take pictures&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/125Stop.jpg"</code> <br />
+              <code>alt="125Stop.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Stop&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/124I'll fix it.jpg"</code> <br />
+              <code>alt="124I'll fix it.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I'll fix it&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/123My paws are cold so I'm sitting on them.jpg"</code> <br />
+              <code>alt="123My paws are cold so I'm sitting on them.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;My paws are cold so I'm sitting on them&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/122I have reached zen again.jpg"</code> <br />
+              <code>alt="122I have reached zen again.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I have reached zen again&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/121Nom Nom Nom ZZZZzz.jpg"</code> <br />
+              <code>alt="121Nom Nom Nom ZZZZzz.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Nom Nom Nom ZZZZzz&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/120Wink Wink.jpg"</code> <br />
+              <code>alt="120Wink Wink.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Wink Wink&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/119I am groceries.jpg"</code> <br />
+              <code>alt="119I am groceries.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I am groceries&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/118Is that neccesary.jpeg"</code> <br />
+              <code>alt="118Is that neccesary.jpeg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Is that neccesary&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/117Do not wake me.jpeg"</code> <br />
+              <code>alt="117Do not wake me.jpeg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Do not wake me&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/116I'm only doing this for the food.jpg"</code> <br />
+              <code>alt="116I'm only doing this for the food.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I'm only doing this for the food&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/115Hay.jpg"</code> <br />
+              <code>alt="115Hay.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Hay&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/114Totoro is not as cute as me right.jpg"</code> <br />
+              <code>alt="114Totoro is not as cute as me right.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Totoro is not as cute as me right&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/113Pay attention to me.jpg"</code> <br />
+              <code>alt="113Pay attention to me.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Pay attention to me&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/112Why wont you ever let me sleep.jpg"</code> <br />
+              <code>alt="112Why wont you ever let me sleep.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Why wont you ever let me sleep&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/111My pad, complete with rooftop patio.jpg"</code> <br />
+              <code>alt="111My pad, complete with rooftop patio.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;My pad, complete with rooftop patio&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/110This is my good side.jpg"</code> <br />
+              <code>alt="110This is my good side.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;This is my good side&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/109Come adopt me.jpg"</code> <br />
+              <code>alt="109Come adopt me.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Come adopt me&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/108Whats that thing you're pointing at me.jpg"</code> <br />
+              <code>alt="108Whats that thing you're pointing at me.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Whats that thing you're pointing at me&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/107Getting a picture with a cat is hard.jpg"</code> <br />
+              <code>alt="107Getting a picture with a cat is hard.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Getting a picture with a cat is hard&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/106Enter sandman.jpg"</code> <br />
+              <code>alt="106Enter sandman.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Enter sandman&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/105Yaaaaaaaaawn.jpg"</code> <br />
+              <code>alt="105Yaaaaaaaaawn.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Yaaaaaaaaawn&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/104I should buy a boat.jpg"</code> <br />
+              <code>alt="104I should buy a boat.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;I should buy a boat&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/103How do I cat.jpg"</code> <br />
+              <code>alt="103How do I cat.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;How do I cat&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/102Draw me like one of your french girls.jpg"</code> <br />
+              <code>alt="102Draw me like one of your french girls.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Draw me like one of your french girls&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/101Just hugging your arm nbd.jpg"</code> <br />
+              <code>alt="101Just hugging your arm nbd.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Just hugging your arm nbd&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/100Let me sleep please.jpg"</code> <br />
+              <code>alt="100Let me sleep please.jpg"</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Let me sleep please&lt;/p&gt;</code> <br />
+     <code></code> <br />
+<code>&lt;/div&gt;</code> <br /></p>
+
+<p>With the <code>img-center</code> class looking like so:</p>
+
+<p><code>.img-center {</code> <br />
+     <code>text-align: center;</code> <br />
+<code>}</code> <br />
+<code>.img-center img {</code> <br />
+     <code>max-width: 100%;</code> <br />
+<code>}</code> <br />
+<code>.img-center p {</code> <br />
+     <code>font-size: 85%;</code> <br />
+     <code>margin-top: 5px;</code> <br />
+     <code>font-style: italic;</code> <br />
+<code>}</code></p>
+
+<p>And then it worked like magic!</p>
+]]></content:encoded>
+      <dc:date>2014-11-29T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Let it Snow</title>
+      <link>http://marcelli.ca/2014/11/28/snow/</link>
+      <description><![CDATA[Me yesterday when it started snowing:
+
+]]></description>
+      <pubDate>Fri, 28 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/28/snow/</guid>
+      <content:encoded><![CDATA[<p>Me yesterday when it started snowing:</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/snowcat.gif" />
+	<p>Look outside! It's snowing! It's so pretty! Wanna build a snowman?</p>
+</div>
+
+<p>Me today when I was walking outside:</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/icerobot.gif" />
+	<p class="under-img-text">Shit shit shit shit</p>
+</div>
+
+<p>That is the end of this blog post.</p>
+]]></content:encoded>
+      <dc:date>2014-11-28T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Musings On Life</title>
+      <link>http://marcelli.ca/2014/11/25/life/</link>
+      <description><![CDATA[Have you ever sat down and thought about the way you were a year ago?
+
+]]></description>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/25/life/</guid>
+      <content:encoded><![CDATA[<p>Have you ever sat down and thought about the way you were a year ago?</p>
+
+<p>Today I decided to do that.</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/shame.gif" />
+	<p>Oh God Why?</p>
+</div>
+
+<p>It was kind of horrible. It is so weird how much change can happen in both someone’s person and life in only a year. I’m not even remotely the same person I was then, but I like to think most of that change has been growth. </p>
+
+<p>I think back to some of the situations I was in, and how I decided to handle them a year ago. I wish I could go back in time and smack some sense into me, but I learned so many lessons that are making me a way better person. </p>
+
+<p>I wonder what year-from-now-me will look back on and cringe at? I’ve made a number of pretty big decisions recently and I have no idea if I any of my choices were the right ones or how they are going to alter my life. It’s easy to fall into a trap of trying to live in a way that you think two-year-from-now-me will look back on happily. It’s not possible to know, because our experiences shape us and guide us. It’s important to stay grounded and live for the present you. </p>
+
+<p>The choices you make today can change your life. Sometimes you have to make the hard choices to make sure you can move forward and most of the time you have no idea if it is the right one. My life sort of did a 180 a little less than a year ago and its been a terrifying rollercoaster ever since, but one thing I look back on is really comforting:</p>
+
+<p><em>I’m doing better now than I was before.</em> Every single day this is true. Each day I am getting stronger and happier and my anxiety ebbs away. I have a new cat, apartment, Christmas tree and 5 year plan. I don’t know what year-from-now-me would think about how I am living my life right now, but I know year-ago-me would be ecstatic. </p>
+
+<p>Let’s hope I can say the same thing in a year!</p>
+]]></content:encoded>
+      <dc:date>2014-11-25T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Zeroth Motivation Monday</title>
+      <link>http://marcelli.ca/2014/11/24/motivation0/</link>
+      <description><![CDATA[It&#8217;s that time again of year everybody - exam time! This is definitely a time of year when things start to get a bit intense for everyone. 
+
+]]></description>
+      <pubDate>Mon, 24 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/24/motivation0/</guid>
+      <content:encoded><![CDATA[<p>It’s that time again of year everybody - exam time! This is definitely a time of year when things start to get a <em>bit</em> intense for everyone. </p>
+
+<p><a href="http://en.wikipedia.org/wiki/Stress_%28biology">Stress</a> is something that every person and animal has in common. It is what drives us and keeps us back all at the same time. There isn’t anyone person in the world who isn’t stressed about someone or something.Look around you next time you’re on campus. Everyone else here is going through the same thing you are. Exams are around the corner and 99% of us are floundering and making things up as we go along.</p>
+
+<p>Are you ready for that exam? Are you on track with that paper? No? Neither am I! Neither is the person sitting to your left in class, or your friend that just texted you. You just don’t see it. </p>
+
+<p>This time of year is really rough for a lot of people, but you’re not alone. You’re never alone. Our school has a ton of great services to help you, both in academics and in <a href="http://www.queensu.ca/hcds">other</a> very useful ways. Just this semster I know of myself, my girlfriend and several friends who received support and accomodations from all three services - Health, Counselling and Disability. As I’ve become more open with my own school anxiety, I’ve learned that: </p>
+
+<ol>
+  <li>There are way more resources than I thought possible.</li>
+  <li>There are way more people feeling and struggling similarly to me than I thought possible. </li>
+</ol>
+
+<p>If you’re struggling badly, reach out for help. If you’re not struggling and you see someone who is, see what you can do. Nobody has to do this alone. </p>
+
+<p>We are all in this together.</p>
+]]></content:encoded>
+      <dc:date>2014-11-24T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Christmas Lights Suck</title>
+      <link>http://marcelli.ca/2014/11/22/lights/</link>
+      <description><![CDATA[My various devices all inform me that it is 2014. In fact, it&#8217;s almost 2015, and I&#8217;m almost 22 years old.
+
+]]></description>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/22/lights/</guid>
+      <content:encoded><![CDATA[<p>My various devices all inform me that it is 2014. In fact, it’s almost 2015, and I’m almost 22 years old.</p>
+
+<p>In recent memory we’ve done some extraordinary things. In the last year alone we’ve: </p>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/Rosetta_%28spacecraft%29">Landed on a Comet</a></li>
+  <li><a href="http://www.sciencedaily.com/releases/2014/02/140203093521.htm">Developed a single molocule LED</a></li>
+  <li><a href="http://www.technologyreview.com/news/524286/a-robotic-hand-this-time-with-feeling/">A robotic hand capable of touch was developed</a></li>
+  <li><a href="http://www.jpl.nasa.gov/news/news.php?release=2014-007">Took the deepest space photo ever of a galaxy cluster</a></li>
+  <li><a href="http://www.kurzweilai.net/kaist-raptor-robot-runs-at-28-58-mph-faster-than-any-human">Developed a robot dinosaur</a></li>
+  <li><a href="http://www.sciencedaily.com/releases/2014/08/140821090524.htm">Developed an algorithim to track emotional state</a></li>
+  <li><a href="http://www.bbc.com/news/health-29485996">A baby was born after a womb transplant</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/2014_in_science">Lots of other stuff</a></li>
+</ul>
+
+<p>Humanity is truly amazing. Only a hundred years ago, most of the technology we take for granted today would seem like magic to them. In fact, bring your iPhone or Android back to 2007, and people will think you are a wizard. Our techonolgy grows and changes at a truly astonishing rate, and our quality of life improves significantly with every new step forward.</p>
+
+<p>Bearing all this in mind, can someone <em>please</em> explain to me how this is still a problem that exists:</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/stupidtree.jpg" title="Spot the kitty!" />
+	<p>Every year! Every single year!</p>
+</div>
+
+<p><em>“It’s not all bad,”</em> one might say, <em>“At least they make it so only part of the lights are off because one is burned out. You can find the dead one!”</em></p>
+
+<p>I spent an hour trying to find the dead one, and I broke all my replacement bulbs in the search.</p>
+
+<p>I think 2015’s goal plan should include Christmas lights that don’t suck.</p>
+]]></content:encoded>
+      <dc:date>2014-11-22T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://marcelli.ca/2014/11/21/hello/</link>
+      <description><![CDATA[I&#8217;ve never really been into blogs. I certainly never thought I&#8217;d actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I&#8217;m doing this because I want to start having projects in my life again.
+
+]]></description>
+      <pubDate>Fri, 21 Nov 2014 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2014/11/21/hello/</guid>
+      <content:encoded><![CDATA[<p>I’ve never really been into blogs. I certainly never thought I’d actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I’m doing this because I want to start having projects in my life again.</p>
+
+<p>The last few years have been crazy and tough and I never found time for me. Now I’m going to do the things that I want to do, and blog about whatever I feel like blogging about. </p>
+
+<p>Join me on a quest to find myself or something.</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/adventure.gif" title="Come on grab your friends!" />
+	<p>Finding myself isn't as cool as Adventure Time though.<p>
+
+</p></p></div>
+]]></content:encoded>
+      <dc:date>2014-11-21T00:00:00-05:00</dc:date>
+    </item>
+    <dc:date>2015-01-03T00:00:00-05:00</dc:date>
+  </channel>
+</rss>
