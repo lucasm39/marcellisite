@@ -3,6 +3,10 @@
 echo "Pulling from Master"
 git pull
 
+echo "Copying rss.xml"
+jekyll build
+cp -f _site/rss.xml rss.xml
+
 echo "Pushing live!"
 git push droplet master
 

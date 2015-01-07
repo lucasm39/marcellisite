@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Copying rss.xml"
-jekyll build
 cp -f _site/rss.xml rss.xml
 
 echo "Pushing to github"
