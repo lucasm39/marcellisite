@@ -414,6 +414,16 @@
 
 <p><code>&lt;div class="img-center"&gt;</code> <br />
      <code></code> <br />
+          <code>&lt;img src="/img/bitty/152Let me show you how it works.jpg"</code> <br />
+              <code>alt="152Let me show you how it works.jpg"</code> <br />
+              <code>datetime="2015-01-08T08:38:47-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Let me show you how it works&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/151Meow.jpg"</code> <br />
+              <code>alt="151Meow.jpg"</code> <br />
+              <code>datetime="2015-01-08T08:38:32-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Meow&lt;/p&gt;</code> <br />
+     <code></code> <br />
           <code>&lt;img src="/img/bitty/150Am I helping I bet I am.jpg"</code> <br />
               <code>alt="150Am I helping I bet I am.jpg"</code> <br />
               <code>datetime="2015-01-05T18:36:13-05:00"/&gt;</code> <br />
