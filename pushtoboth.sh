@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Copying rss.xml"
+rm -f rss.xml
 jekyll build
 cp -f _site/rss.xml rss.xml
 
