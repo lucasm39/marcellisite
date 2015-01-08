@@ -24,4 +24,4 @@ Then today I realized how to fix it.
 
 <script src="https://gist.github.com/lucasmarcelli/41defc40a5d7ca25d802.js"></script>
 
-The build command was builing it just fine, but what was happening is the plugin would build the rss.xml in `_site', then jekyll would rebuild the one in '_site' out of the one I have in the main directory. This meant that I was essentially copying the same file back. I simply remove the file first, then build and it works like magic!
+The build command was builing it just fine, but what was happening is the plugin would build the rss.xml in `_site`, then jekyll would rebuild the one in '_site' out of the one I have in the main directory. This meant that I was essentially copying the same file back. I simply remove the file first, then build and it works like magic!
