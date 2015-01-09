@@ -6,9 +6,15 @@
                     <hr>
 					<div class="preview-post">
     					<a href="{{ post.url | prepend: site.baseurl }}">
+                        {% if post.euler %}
+                            <h2 class="post-title">
+                            Project Euler: {{ post.title }}
+                        </h2>
+                        {% else %}
         				<h2 class="post-title">
             				{{ post.title }}
         				</h2>
+                        {% endif %}
        					{% if post.subtitle %}
         					<h3 class="post-subtitle">
             					{{ post.subtitle }}
