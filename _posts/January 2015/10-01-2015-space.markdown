@@ -27,14 +27,14 @@ Superclusters of galaxies clump into tendrils, with giant expanses of space betw
 
 Most of those bright lights are stars. Some of them are also galaxies, containing billions of stars. Others are globular clusters, which *only* have thousands to millions of stars. Our galaxy is called the Milky Way. It has 1 to 200 billion stars in it. We orbit one, called Sol. It's also known as the Sun.
 
-Our small vantage point, which looks like this to the rest of the universe:
+We have a small vantage point, which looks like this to the rest of the universe:
 
 <div class="img-center">
 	<img src="/img/2015Jan/dot.jpg">
 	<p> Pale Blue Dot </p>
 </div>
 
-We pointed the Hubble Space Telescope at a seemingly empty part of the sky for months and months and months. This portion of the sky is about one tenth the size of the full Moon. What we saw was completely unprecedented and is called the Hubble Ultra Deep Field.
+How small exactly? We pointed the Hubble Space Telescope at a seemingly empty part of the sky for months and months and months. This portion of the sky is about one tenth the size of the full Moon. What we saw was completely unprecedented and is called the Hubble Ultra Deep Field.
 
 <div class="img-center">
 	<img src="/img/2015Jan/ultra.jpg">
