@@ -513,6 +513,11 @@
 
 <p><code>&lt;div class="img-center"&gt;</code> <br />
      <code></code> <br />
+          <code>&lt;img src="/img/bitty/153Stop waking me up.jpg"</code> <br />
+              <code>alt="153Stop waking me up.jpg"</code> <br />
+              <code>datetime="2015-01-13T11:11:11-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Stop waking me up&lt;/p&gt;</code> <br />
+     <code></code> <br />
           <code>&lt;img src="/img/bitty/152Let me show you how it works.jpg"</code> <br />
               <code>alt="152Let me show you how it works.jpg"</code> <br />
               <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
