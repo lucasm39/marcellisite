@@ -8,7 +8,7 @@ rm -f rss.xml
 jekyll build
 cp -f _site/rss.xml rss.xml
 
-echo "Updating Git"
+echo "Updating Git With RSS"
 git add . --all
 git commit -m "Updated RSS"
 git push origin master
