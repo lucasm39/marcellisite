@@ -8,11 +8,42 @@
     <title>Lucas' Blog and Website</title>
     <link>http://marcelli.ca</link>
     <description>My name is Lucas Marcelli. I like coding, cats and space. This is my website.</description>
-    <pubDate>Sun, 11 Jan 2015 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 21 Jan 2015 00:00:00 -0500</pubDate>
+    <item>
+      <title>I had an exam</title>
+      <link>http://marcelli.ca/2015/01/21/exams/</link>
+      <description><![CDATA[About a week or so ago, knowledge of an impending exam sprung up on me. It was not expected and I had no idea I&#8217;d be taking this exam until this point. Needless to say, studying for it was a stressful experience.
+
+]]></description>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2015/01/21/exams/</guid>
+      <content:encoded><![CDATA[<p>About a week or so ago, knowledge of an impending exam sprung up on me. It was not expected and I had no idea I’d be taking this exam until this point. Needless to say, studying for it was a stressful experience.</p>
+
+<p>My first reaction was one of extreme anxiety. There is a lot riding on this exam. Would I study enough in a week to pass? When I first look through the content, I freaked out completely and didn’t think I’d be able to do it. It was overwhelming. But when I looked through the content I’d be tested on, I was able to break down my problem and I realized that it was totally doable. </p>
+
+<p>It’s weird how you can know exactly what you have to do and in what timeframe it has to be done, but you’ll still get the urge to procrastinate. I was so anxious for it that I ended up actually procrastinating a lot for a couple days. It was a lot easier getting myself back to work though, having already broke down the content I needed to learn, making it at least seem studyable.</p>
+
+<p>I wrote the exam on Friday, and I’m glad I ended up doing it. It was a very stressful experience, to say the least, but overall I’m just happy with myself for managing to get it done. I’m not actually sure how I did, but I studied hard and I feel like I knocked it out of the park.</p>
+
+<p>Update: Since actually writing this and posting it, I found out I passed the exam! Yay!</p>
+]]></content:encoded>
+      <dc:date>2015-01-21T00:00:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Setting Goals is Hard</title>
+      <link>http://marcelli.ca/2015/01/14/goals/</link>
+      <description><![CDATA[
+]]></description>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2015/01/14/goals/</guid>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+      <dc:date>2015-01-14T00:00:00-05:00</dc:date>
+    </item>
     <item>
       <title>Getting older is weird</title>
       <link>http://marcelli.ca/2015/01/11/tastes/</link>
-      <description><![CDATA[I like music I didn’t used to like.
+      <description><![CDATA[I like music I didn&#8217;t used to like.
 
 ]]></description>
       <pubDate>Sun, 11 Jan 2015 00:00:00 -0500</pubDate>
@@ -111,7 +142,7 @@
     <item>
       <title>Counter Strike is fun</title>
       <link>http://marcelli.ca/2015/01/06/csgo/</link>
-      <description><![CDATA[I’ve recently started playing CS:GO competitive mode. It’s a lot of fun. I got placed in Silver IV, which isn’t bad considering how terrible I am. 
+      <description><![CDATA[I&#8217;ve recently started playing CS:GO competitive mode. It&#8217;s a lot of fun. I got placed in Silver IV, which isn&#8217;t bad considering how terrible I am. 
 
 ]]></description>
       <pubDate>Tue, 06 Jan 2015 00:00:00 -0500</pubDate>
@@ -149,7 +180,7 @@
     <item>
       <title>Second Motivation Monday</title>
       <link>http://marcelli.ca/2014/12/28/motivation2/</link>
-      <description><![CDATA[With the recent launch of my projects page, I ran into a whole set of problems. The first most obvious one is the lack of mobile support, but I’m working on that. A much more subtle and annoying one is this:
+      <description><![CDATA[With the recent launch of my projects page, I ran into a whole set of problems. The first most obvious one is the lack of mobile support, but I&#8217;m working on that. A much more subtle and annoying one is this:
 
 
 ]]></description>
@@ -194,7 +225,7 @@
     <item>
       <title>Problem 1</title>
       <link>http://marcelli.ca/2014/12/26/euler0/</link>
-      <description><![CDATA[I’ve been doing Project Euler for year and have always wanted to document the process. Documentation is a good skill to have, and I am always trying to refine the best ways to help teach others programming skills. I won’t necessarily be doing the problems in order, but it should be pretty close. I’ll give thorough explanations for my code and my processes in understanding how to tackle the problems as I go along. However, the first couple problems are incredibly easy.
+      <description><![CDATA[I&#8217;ve been doing Project Euler for year and have always wanted to document the process. Documentation is a good skill to have, and I am always trying to refine the best ways to help teach others programming skills. I won&#8217;t necessarily be doing the problems in order, but it should be pretty close. I&#8217;ll give thorough explanations for my code and my processes in understanding how to tackle the problems as I go along. However, the first couple problems are incredibly easy.
 
 ]]></description>
       <pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate>
@@ -515,262 +546,262 @@
      <code></code> <br />
           <code>&lt;img src="/img/bitty/153Stop waking me up.jpg"</code> <br />
               <code>alt="153Stop waking me up.jpg"</code> <br />
-              <code>datetime="2015-01-13T11:11:11-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-14T14:45:01-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Stop waking me up&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/152Let me show you how it works.jpg"</code> <br />
               <code>alt="152Let me show you how it works.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-08T11:13:02-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Let me show you how it works&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/151Meow.jpg"</code> <br />
               <code>alt="151Meow.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-08T11:13:02-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Meow&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/150Am I helping I bet I am.jpg"</code> <br />
               <code>alt="150Am I helping I bet I am.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Am I helping I bet I am&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/149I missed you.jpg"</code> <br />
               <code>alt="149I missed you.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I missed you&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/148I will be the only cat here.jpg"</code> <br />
               <code>alt="148I will be the only cat here.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:19:06-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I will be the only cat here&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/147Wow this cat is the best.jpg"</code> <br />
               <code>alt="147Wow this cat is the best.jpg"</code> <br />
-              <code>datetime="2014-12-26T16:03:26-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Wow this cat is the best&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/146Did she actually get her to stay like that.jpg"</code> <br />
               <code>alt="146Did she actually get her to stay like that.jpg"</code> <br />
-              <code>datetime="2014-12-26T16:03:26-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Did she actually get her to stay like that&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/144I put up with so much honestly.jpg"</code> <br />
               <code>alt="144I put up with so much honestly.jpg"</code> <br />
-              <code>datetime="2014-12-26T16:03:26-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I put up with so much honestly&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/143Oh hey.jpg"</code> <br />
               <code>alt="143Oh hey.jpg"</code> <br />
-              <code>datetime="2014-12-26T16:03:26-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Oh hey&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/142My tail is my pillow.jpg"</code> <br />
               <code>alt="142My tail is my pillow.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;My tail is my pillow&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/141Can you feed me please.jpg"</code> <br />
               <code>alt="141Can you feed me please.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Can you feed me please&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/140I must channel my inner samus.jpg"</code> <br />
               <code>alt="140I must channel my inner samus.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I must channel my inner samus&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/138Dawwww.jpg"</code> <br />
               <code>alt="138Dawwww.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Dawwww&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/137Was the flash neccesary.jpg"</code> <br />
               <code>alt="137Was the flash neccesary.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Was the flash neccesary&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/136Oh hay gurl.jpg"</code> <br />
               <code>alt="136Oh hay gurl.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:20:42-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Oh hay gurl&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/135zzzzzzz.jpg"</code> <br />
               <code>alt="135zzzzzzz.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;zzzzzzz&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/134Found your shoelace.jpg"</code> <br />
               <code>alt="134Found your shoelace.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Found your shoelace&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/133zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.jpg"</code> <br />
               <code>alt="133zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/132I suppose you can cuddle me once in a while.jpg"</code> <br />
               <code>alt="132I suppose you can cuddle me once in a while.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I suppose you can cuddle me once in a while&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/131Hey sup human stop playing cs and pay attention to me.jpg"</code> <br />
               <code>alt="131Hey sup human stop playing cs and pay attention to me.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Hey sup human stop playing cs and pay attention to me&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/130Purrrr.jpg"</code> <br />
               <code>alt="130Purrrr.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Purrrr&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/129Wait a second.jpg"</code> <br />
               <code>alt="129Wait a second.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Wait a second&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/128Is that.jpg"</code> <br />
               <code>alt="128Is that.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Is that&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/127A camera.jpg"</code> <br />
               <code>alt="127A camera.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;A camera&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/126I don't wanna take pictures.jpg"</code> <br />
               <code>alt="126I don't wanna take pictures.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I don't wanna take pictures&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/125Stop.jpg"</code> <br />
               <code>alt="125Stop.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Stop&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/124I'll fix it.jpg"</code> <br />
               <code>alt="124I'll fix it.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I'll fix it&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/123My paws are cold so I'm sitting on them.jpg"</code> <br />
               <code>alt="123My paws are cold so I'm sitting on them.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;My paws are cold so I'm sitting on them&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/122I have reached zen again.jpg"</code> <br />
               <code>alt="122I have reached zen again.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I have reached zen again&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/121Nom Nom Nom ZZZZzz.jpg"</code> <br />
               <code>alt="121Nom Nom Nom ZZZZzz.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Nom Nom Nom ZZZZzz&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/120Wink Wink.jpg"</code> <br />
               <code>alt="120Wink Wink.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Wink Wink&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/119I am groceries.jpg"</code> <br />
               <code>alt="119I am groceries.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I am groceries&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/118Is that neccesary.jpeg"</code> <br />
               <code>alt="118Is that neccesary.jpeg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Is that neccesary&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/117Do not wake me.jpeg"</code> <br />
               <code>alt="117Do not wake me.jpeg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Do not wake me&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/116I'm only doing this for the food.jpg"</code> <br />
               <code>alt="116I'm only doing this for the food.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I'm only doing this for the food&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/115Hay.jpg"</code> <br />
               <code>alt="115Hay.jpg"</code> <br />
-              <code>datetime="2015-01-09T07:20:42-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Hay&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/114Totoro is not as cute as me right.jpg"</code> <br />
               <code>alt="114Totoro is not as cute as me right.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Totoro is not as cute as me right&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/113Pay attention to me.jpg"</code> <br />
               <code>alt="113Pay attention to me.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Pay attention to me&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/112Why wont you ever let me sleep.jpg"</code> <br />
               <code>alt="112Why wont you ever let me sleep.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Why wont you ever let me sleep&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/111My pad, complete with rooftop patio.jpg"</code> <br />
               <code>alt="111My pad, complete with rooftop patio.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;My pad, complete with rooftop patio&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/110This is my good side.jpg"</code> <br />
               <code>alt="110This is my good side.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;This is my good side&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/109Come adopt me.jpg"</code> <br />
               <code>alt="109Come adopt me.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Come adopt me&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/108Whats that thing you're pointing at me.jpg"</code> <br />
               <code>alt="108Whats that thing you're pointing at me.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Whats that thing you're pointing at me&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/107Getting a picture with a cat is hard.jpg"</code> <br />
               <code>alt="107Getting a picture with a cat is hard.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Getting a picture with a cat is hard&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/106Enter sandman.jpg"</code> <br />
               <code>alt="106Enter sandman.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Enter sandman&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/105Yaaaaaaaaawn.jpg"</code> <br />
               <code>alt="105Yaaaaaaaaawn.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Yaaaaaaaaawn&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/104I should buy a boat.jpg"</code> <br />
               <code>alt="104I should buy a boat.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;I should buy a boat&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/103How do I cat.jpg"</code> <br />
               <code>alt="103How do I cat.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;How do I cat&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/102Draw me like one of your french girls.jpg"</code> <br />
               <code>alt="102Draw me like one of your french girls.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Draw me like one of your french girls&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/101Just hugging your arm nbd.jpg"</code> <br />
               <code>alt="101Just hugging your arm nbd.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Just hugging your arm nbd&lt;/p&gt;</code> <br />
      <code></code> <br />
           <code>&lt;img src="/img/bitty/100Let me sleep please.jpg"</code> <br />
               <code>alt="100Let me sleep please.jpg"</code> <br />
-              <code>datetime="2014-12-25T15:06:15-05:00"/&gt;</code> <br />
+              <code>datetime="2015-01-06T10:26:13-05:00"/&gt;</code> <br />
           <code>&lt;p&gt;Let me sleep please&lt;/p&gt;</code> <br />
      <code></code> <br />
 <code>&lt;/div&gt;</code> <br /></p>
@@ -853,7 +884,7 @@
     <item>
       <title>Zeroth Motivation Monday</title>
       <link>http://marcelli.ca/2014/11/24/motivation0/</link>
-      <description><![CDATA[It’s that time again of year everybody - exam time! This is definitely a time of year when things start to get a bit intense for everyone. 
+      <description><![CDATA[It&#8217;s that time again of year everybody - exam time! This is definitely a time of year when things start to get a bit intense for everyone. 
 
 ]]></description>
       <pubDate>Mon, 24 Nov 2014 00:00:00 -0500</pubDate>
@@ -880,7 +911,7 @@
     <item>
       <title>Christmas Lights Suck</title>
       <link>http://marcelli.ca/2014/11/22/lights/</link>
-      <description><![CDATA[My various devices all inform me that it is 2014. In fact, it’s almost 2015, and I’m almost 22 years old.
+      <description><![CDATA[My various devices all inform me that it is 2014. In fact, it&#8217;s almost 2015, and I&#8217;m almost 22 years old.
 
 ]]></description>
       <pubDate>Sat, 22 Nov 2014 00:00:00 -0500</pubDate>
@@ -920,7 +951,7 @@
     <item>
       <title>Hello World</title>
       <link>http://marcelli.ca/2014/11/21/hello/</link>
-      <description><![CDATA[I’ve never really been into blogs. I certainly never thought I’d actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I’m doing this because I want to start having projects in my life again.
+      <description><![CDATA[I&#8217;ve never really been into blogs. I certainly never thought I&#8217;d actually write one. Lately it has felt like it would probably be a good idea to put some of my thoughts into a format that I can keep and share. I guess that I&#8217;m doing this because I want to start having projects in my life again.
 
 ]]></description>
       <pubDate>Fri, 21 Nov 2014 00:00:00 -0500</pubDate>
@@ -939,6 +970,6 @@
 ]]></content:encoded>
       <dc:date>2014-11-21T00:00:00-05:00</dc:date>
     </item>
-    <dc:date>2015-01-11T00:00:00-05:00</dc:date>
+    <dc:date>2015-01-21T00:00:00-05:00</dc:date>
   </channel>
 </rss>
