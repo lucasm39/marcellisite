@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Setting Goals is Hard"
+subtitle: "Meeting them is even harder."
+header-img: "goals.jpg"
+tag: rage
+collection: "Rage"
+collection-url: "/rage"
+---
