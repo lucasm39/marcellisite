@@ -55,8 +55,8 @@
 }
 
 #hover-content {
-  background: rgba(255,255,255,0.3);
-  color: black;
+  background: rgba(0,0,0,0.55);
+  color: white;
   cursor: pointer;
   opacity: 0;
   width: 100%;
