@@ -8,7 +8,27 @@
     <title>Lucas' Blog and Website</title>
     <link>http://marcelli.ca</link>
     <description>My name is Lucas Marcelli. I like coding, cats and space. This is my website.</description>
-    <pubDate>Wed, 28 Jan 2015 00:00:00 -0500</pubDate>
+    <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
+    <item>
+      <title>Keeping up is hard</title>
+      <link>http://marcelli.ca/2015/02/01/keepingup/</link>
+      <description><![CDATA[I set lots of goals for myself. Some are reasonable, others are not. I know which ones are reasonable when I set them and those are the ones I really strive for. One such goal is 10 blog posts per month, which with the completion of this one, I have managed to keep!
+
+]]></description>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2015/02/01/keepingup/</guid>
+      <content:encoded><![CDATA[<p>I set lots of goals for myself. Some are reasonable, others are not. I know which ones are reasonable when I set them and those are the ones I really strive for. One such goal is 10 blog posts per month, which with the completion of this one, I have managed to keep!</p>
+
+<p>However, some of the goals I set aren’t being kept, and I can’t figure out why. </p>
+
+<p>You’ll notice that my project euler and bitty pages haven’t been updated in a while. I’m not sure why. When I sit down to work on them I get pretty anxious and I have to do something else. It’s strange seeing as they are perfectly reasonable goals to be working towards.</p>
+
+<p>A lot of what stops me, and many like me, is my own thoughts. I get overwhelemed by the task ahead and I don’t know how to start. Once I start I get on a roll and I can finish very easily. It’s the thing I am working on the most out of everything.</p>
+
+<p>I hate the feeling of being anxious to do <em>anything</em> but this is the feeling I hate the most. I know I’m not alone though, and I know that many people struggle with the same feelings. Thankfully we are moving towards a much better world for people with anxiety and other mental health issues. With hard work and some luck, I’ll be doing better in no time.</p>
+]]></content:encoded>
+      <dc:date>2015-02-01T00:00:00-05:00</dc:date>
+    </item>
     <item>
       <title>Twitter lets us do some cool stuff</title>
       <link>http://marcelli.ca/2015/01/28/letstalk/</link>
@@ -990,6 +1010,6 @@
 ]]></content:encoded>
       <dc:date>2014-11-21T00:00:00-05:00</dc:date>
     </item>
-    <dc:date>2015-01-28T00:00:00-05:00</dc:date>
+    <dc:date>2015-02-01T00:00:00-05:00</dc:date>
   </channel>
 </rss>
