@@ -8,7 +8,29 @@
     <title>Lucas' Blog and Website</title>
     <link>http://marcelli.ca</link>
     <description>My name is Lucas Marcelli. I like coding, cats and space. This is my website.</description>
-    <pubDate>Sun, 01 Feb 2015 00:00:00 -0500</pubDate>
+    <pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
+    <item>
+      <title>It's been a while</title>
+      <link>http://marcelli.ca/2015/02/21/asdf/</link>
+      <description><![CDATA[I haven’t written a blog post in a while. 
+
+]]></description>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 -0500</pubDate>
+      <guid>http://marcelli.ca/2015/02/21/asdf/</guid>
+      <content:encoded><![CDATA[<p>I haven’t written a blog post in a while. </p>
+
+<p>Things like this are a good metric for how “well” you are doing. It’s been a long time because Feburary has been absolutely hectic for me. So I’m writing this in the hopes of having a bit of a turn around.</p>
+
+<p>I didn’t know what to write about, so I just settled on my CS:GO progress. </p>
+
+<p>As of right now, I am in Silver Elite Master. I’m so close to Nova I can taste it. When that rank up finally happens it’s gonna feel so sweet. </p>
+
+<p>Bitty has gotten into the habit of sitting at my computer when I play and blocking my HP bar. I let it slide because it’s adorable and it happens literally <em>every</em> time.</p>
+
+<p>Theres that. A post done.</p>
+]]></content:encoded>
+      <dc:date>2015-02-21T00:00:00-05:00</dc:date>
+    </item>
     <item>
       <title>Keeping up is hard</title>
       <link>http://marcelli.ca/2015/02/01/keepingup/</link>
@@ -1010,6 +1032,6 @@
 ]]></content:encoded>
       <dc:date>2014-11-21T00:00:00-05:00</dc:date>
     </item>
-    <dc:date>2015-02-01T00:00:00-05:00</dc:date>
+    <dc:date>2015-02-21T00:00:00-05:00</dc:date>
   </channel>
 </rss>
