@@ -606,6 +606,16 @@
 
 <p><code>&lt;div class="img-center"&gt;</code> <br />
      <code></code> <br />
+          <code>&lt;img src="/img/bitty/155Sorry are you busy.jpg"</code> <br />
+              <code>alt="155Sorry are you busy.jpg"</code> <br />
+              <code>datetime="2015-02-21T14:37:08-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Sorry are you busy&lt;/p&gt;</code> <br />
+     <code></code> <br />
+          <code>&lt;img src="/img/bitty/154Bitty and her Boyfriend.jpg"</code> <br />
+              <code>alt="154Bitty and her Boyfriend.jpg"</code> <br />
+              <code>datetime="2015-02-21T14:35:45-05:00"/&gt;</code> <br />
+          <code>&lt;p&gt;Bitty and her Boyfriend&lt;/p&gt;</code> <br />
+     <code></code> <br />
           <code>&lt;img src="/img/bitty/153Stop waking me up.jpg"</code> <br />
               <code>alt="153Stop waking me up.jpg"</code> <br />
               <code>datetime="2015-01-29T12:49:55-05:00"/&gt;</code> <br />
