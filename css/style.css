@@ -114,6 +114,18 @@
   right:0;
 }
 
+.section-header{
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.section-subheader{
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
 /*For some reason, the first cell in the table shrinks slightly after the hover. The following adds an invisible cell to avoid this */
 
 #none{
@@ -126,3 +138,5 @@
   display:none !important;
   margin-top: 0 !important;
 }
+
+
