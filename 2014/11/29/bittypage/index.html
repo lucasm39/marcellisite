@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="My name is Lucas Marcelli. I like coding, cats and space. This is my website.">
 
-    <title>Lucas' Blog and Website</title>
+    <title>Generating the Kitty Page - Lucas' Blog and Website</title>
 
-    <link rel="canonical" href="http://marcelli.ca/">
+    <link rel="canonical" href="http://marcelli.ca/2014/11/29/bittypage/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -198,131 +198,124 @@
 </nav>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/headers/home-bg.jpg')">
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/headers/coding/bitty.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Lucas' Blog and Website</h1>
-                    <hr class="small">
-                    <span class="subheading">Sometimes I have a point</span>
+                <div class="post-heading">
+                    <h1>Generating the Kitty Page</h1>
+                    
+                    <h2 class="subheading-post">That was an interesting exercise.</h2>
+                    
+                    <span class="meta"></span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
+<!-- Post Content -->
+<article>
+    <div class="container" id="justify-it">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">              
-            
-			
-<div class="preview-post">
-    <a href="/2015/10/01/politics/">
-        <h2 class="post-title">
-            
-                Politics
-            
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Not good dinnertime chat
-        </h3>
-        
-    </a>
-    <p class="post-meta" style="margin-top:15px">Posted by Lucas on October 1, 2015</p>
-</div>
-<hr>
+				<p><a href="/kitty">I really like my cat.</a></p>
 
-<div class="preview-post">
-    <a href="/2015/09/03/thesis/">
-        <h2 class="post-title">
-            
-                Thesis! Ahh!
-            
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Let's get started.
-        </h3>
-        
-    </a>
-    <p class="post-meta" style="margin-top:15px">Posted by Lucas on September 3, 2015</p>
-</div>
-<hr>
+<p>I wanted to make a page where I could drop photos of my cat and they would automagically populate the page, but since I’m using <a href="http://jekyllrb.com/">Jekyll</a>, which only serves static content, this proved to be a bit more complicated than I expected.</p>
 
-<div class="preview-post">
-    <a href="/2015/08/24/late/">
-        <h2 class="post-title">
-            
-                I'm Back
-            
-        </h2>
-        
-        <h3 class="post-subtitle">
-            Better Late Than Never....
-        </h3>
-        
-    </a>
-    <p class="post-meta" style="margin-top:15px">Posted by Lucas on August 24, 2015</p>
-</div>
-<hr>
+<p>My initial idea was to simply to loop through a folder of cleverly named photos (1.jpg, 2.jpg etc) using a liquid for loop, like so:</p>
 
-<div class="preview-post">
-    <a href="/2015/02/21/asdf/">
-        <h2 class="post-title">
-            
-                It's been a while
-            
-        </h2>
-        
-        <h3 class="post-subtitle">
-            I think I'll write about something pointless.
-        </h3>
-        
-    </a>
-    <p class="post-meta" style="margin-top:15px">Posted by Lucas on February 21, 2015</p>
-</div>
-<hr>
+<p><code>{% for i in (1..5) %}</code> <br />
+     <code>&lt;img src="/img/bitty/{{ i }}.jpg"&gt;</code> <br />
+<code>{% endfor %}</code></p>
 
-<div class="preview-post">
-    <a href="/2015/02/01/keepingup/">
-        <h2 class="post-title">
-            
-                Keeping up is hard
-            
-        </h2>
-        
-        <h3 class="post-subtitle">
-            How do people do this?
-        </h3>
-        
-    </a>
-    <p class="post-meta" style="margin-top:15px">Posted by Lucas on February 1, 2015</p>
-</div>
-<hr>
+<p>This is actually a pretty elegant solution, but it has some problems. For one, every time I would want put a new photo in, I’d  have to increase the counter manually each time. This would also not allow me to include my genius little blurb underneath each photo.</p>
 
+<p>I knew that Jekyll wouldn’t give me anything like this out of the box, so this would have to be done through some sort of plugin. I <em>also</em> knew that I couldn’t be the only person who had ever wanted something like this, a suspicion that a quick Google search <a href="https://github.com/sillylogger/jekyll-directory/blob/master/_plugins/directory_tag.rb">confirmed</a>.</p>
 
-<!-- Pager -->
+<p>This plugin generates a directory list according to the sames rules as <code>ls</code> on unix systems. I realized that by naming my pictures what I want the blurb to be, I could append it underneath using the <code>slug</code> attribute it creates for me. However, the files would be listed in alphabetical order. I wanted Bitty’s photos displayed in chronological order, with the newest at the top.</p>
 
-<ul class="pager">
-    
-    
-    <li class="next">
-        <a href="/page2">Older Posts &rarr;</a>
-    </li>
-    
-</ul>
+<p>It was almost perfect! I just added one little line of code:</p>
 
+<p><code>slug.gsub!(/\d+/, '')</code></p>
 
-		</div>
-	</div>
+<p>This removed any numbers from <code>slug</code>, which means I could prepend numbers to my filenames to make them showup in the order I wanted. I chose to prepend them with 3 digits, effectivley giving me 899 photos on the page before I have to figure out a better way. This resulted in a pretty funny looking folder:</p>
+
+<div class="img-center">
+	<img src="/img/2014Nov/result.png" title="So much kitty" />
+	<p>I wonder how long it'll be until I need to use 4 digits...</p>
 </div>
 
+<p>Once I did that, all that was left was simply writing a for loop like so:</p>
 
+<p><code>&lt;div class="img-center"&gt;</code> <br />
+     <code>{% directory path: img/bitty reverse: true %}</code> <br />
+          <code>&lt;img src="{{ file.url }}"</code> <br />
+              <code>alt="{{ file.name }}"</code> <br />
+              <code>datetime="{{ file.date | date_to_xmlschema }}"/&gt;</code> <br />
+          <code>&lt;p&gt;{{ file.slug }}&lt;/p&gt;</code> <br />
+     <code>{% enddirectory %}</code> <br />
+<code>&lt;/div&gt;</code> <br /></p>
+
+<p>With the <code>img-center</code> class looking like so:</p>
+
+<p><code>.img-center {</code> <br />
+     <code>text-align: center;</code> <br />
+<code>}</code> <br />
+<code>.img-center img {</code> <br />
+     <code>max-width: 100%;</code> <br />
+<code>}</code> <br />
+<code>.img-center p {</code> <br />
+     <code>font-size: 85%;</code> <br />
+     <code>margin-top: 5px;</code> <br />
+     <code>font-style: italic;</code> <br />
+<code>}</code></p>
+
+<p>And then it worked like magic!</p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2014/11/28/snow/" data-toggle="tooltip" data-placement="top" title="Let it Snow">&larr; Previous Post</a> 
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2014/12/01/hold/" data-toggle="tooltip" data-placement="top" title="Putting my Life on Hold">Next Post &rarr;</a>
+                    </li>
+                     
+                </ul>
+                <div class="post-end">
+                    <p> This is part of the <a href=/coding>Coding and Technology collection. </a></p>
+                </div>
+                <div class="post-end">
+                    <p> Posted by Lucas on November 29, 2014 <br>
+                     Lucas is a 1st year Graduate Student at Queen's University studying Computing.</p>
+                </div>
+                
+                     <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'lucasmarcelli'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                
+            </div>
+        </div>
+    </div>
+</article>
 
 
     <!-- Footer -->
