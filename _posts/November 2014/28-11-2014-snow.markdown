@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Let it Snow"
+subtitle: "How about noooooo."
+header-img: "snow.jpg"
+tag: rage
+collection: "Rage"
+collection-url: "/rage"
+credit: "https://www.flickr.com/photos/simon__syon/"
+---
+
+Me yesterday when it started snowing:
+
+<div class="img-center">
+	<img src="/img/2014Nov/snowcat.gif">
+	<p>Look outside! It's snowing! It's so pretty! Wanna build a snowman?</p>
+</div>
+
+Me today when I was walking outside:
+
+<div class="img-center">
+	<img src="/img/2014Nov/icerobot.gif">
+	<p class="under-img-text">Shit shit shit shit</p>
+</div>
+
+That is the end of this blog post.

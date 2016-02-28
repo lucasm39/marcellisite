@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Kobe the Dog"
+description: "Awwwwwww"
+header-img: "kobe.jpg"
+nav: "yes"
+---
+
+<p>This is a page that contains cute pictures of my other, other cat (actually dog). It's here for when I'm having a bad day and need a pick me up. It will be added to randomly and regularly. </p>
+
+<p>Enjoy. </p>
+
+<div class="img-center">
+	  {% directory path: img/kobe reverse: true %}
+	      <img src="{{ file.url }}"
+	           alt="{{ file.name }}"
+	           datetime="{{ file.date | date_to_xmlschema }}" />
+	      <p>{{ file.slug }}</p>
+	  {% enddirectory %}
+</div>
+
+<ul class="pager">
+    <li>
+        <a href="#">go to the top</a> 
+    </li>
+    <li>
+        <a href="/">go to the homepage</a> 
+    </li>
+</ul>

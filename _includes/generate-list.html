@@ -1,0 +1,30 @@
+<div class="container">
+	<div class="row" style="float: left">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="padding-left: none">
+			{% for page in site.pages %}
+		        {% if page.iscollection %}
+		    		<a href="{{ page.url | prepend: site.baseurl }}">
+		    			<h1 class="post-title">
+		            		{{ page.title }}
+		        		</h1>
+		        	{% if page.blurb %}
+		        		<h5 class="post-blurb">
+		            		{{ page.blurb }}
+		            		{% if page.count == "1" %}
+		            			({{ page.count }} Post)
+		            		{% else %}
+		            			({{ page.count }} Posts)
+		            		{% endif %}
+		        		</h5>
+		        	{% endif %}
+		    		</a>
+		    		<hr>
+		    	{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+
+            

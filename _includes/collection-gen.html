@@ -1,0 +1,37 @@
+<div class="container">
+	<div class="row">
+			{% for post in site.posts %}	
+				{% for tag in post.tags %}
+					{% if tag == page.tag %}
+                    <hr>
+					<div class="preview-post">
+    					<a href="{{ post.url | prepend: site.baseurl }}">
+                        {% if post.euler %}
+                            <h2 class="post-title">
+                            Project Euler: {{ post.title }}
+                        </h2>
+                        {% else %}
+        				<h2 class="post-title">
+            				{{ post.title }}
+        				</h2>
+                        {% endif %}
+       					{% if post.subtitle %}
+        					<h3 class="post-subtitle">
+            					{{ post.subtitle }}
+        					</h3>
+        				{% endif %}
+    					</a>
+    					<p class="post-meta" style="margin-top:15px">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+					</div>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+	</div>
+</div>
+
+<ul class="pager">
+    <li>
+        <a href="/collections/">All Collections</a> 
+    </li>
+</ul>
+
